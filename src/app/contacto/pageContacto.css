@@ -1,0 +1,24 @@
+.networkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.networkContainer p {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.contactInformation h2{
+    font-family: var(--font-roboto);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.contactInformation h3 {
+    font-family: var(--font-roboto);
+    font-size: 1.4rem;
+    font-weight: 500;
+}

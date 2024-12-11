@@ -1,10 +1,11 @@
 import React from "react";
 import './servicios.css'
+import CardContacto from "../components/CardContacto/CardConacto";
 
 function serviciosPage() {
     return (
         <>
-            <h1 className="my-10 text-center">Nuestras Áreas de trabajo </h1>
+            <h1 className="my-8 md:my-12 seccionTitle">Nuestras Áreas de trabajo </h1>
 
             <div className="service grid md:grid-cols-2 mx-4 md:mx-10 mt-8 md:mt-16 gap-4">
                 <div className="flex justify-center md:justify-start">
@@ -122,6 +123,8 @@ function serviciosPage() {
 
                 </div>
             </div>
+
+            <CardContacto />
         </>
 
     )

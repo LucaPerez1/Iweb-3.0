@@ -6,8 +6,10 @@ const Footer = () => {
         <footer className="footer py-6 sm:px-6 lg:px-8 lg:py-8">
             <div className="grid md:grid-cols-3 gap-6">
                 <div className='flex flex-col'>
-                    <img src="../logo.svg" alt="iweb logo" />
-                    <p>Somos una empresa de IT, nos enfocamos en impulsar el crecimiento de nuestros clientes mediante tecnología y creatividad, asegurando resultados de alta calidad</p>
+                    <Link href={'/'}>
+                        <img src="../logo.svg" alt="iweb logo" className='w-auto'/>
+                    </Link>
+                    <p>Somos una empresa de IT, enfocada en impulsar el crecimiento de nuestros clientes mediante tecnología y creatividad, asegurando resultados de alta calidad</p>
                 </div>
                 <div>
                     <h4>Seguinos en nuestras redes</h4>

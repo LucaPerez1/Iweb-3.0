@@ -8,6 +8,7 @@
 }
 
 .service p{
+    font-family: var(--font-roboto);
     margin-top: 24px;
     color: #f3f3f3;
     font-size: 16px;
@@ -24,12 +25,14 @@
 }
 
 .serviceTitle h2{
+    font-family: var(--font-roboto);
     font-size: 32px;
     color: #f3f3f3;
     font-weight: 700;
 }
 
 .serviceTitle h3{
+    font-family: var(--font-roboto);
     color: #3A3A3A;
     font-size: 70px;
 }

@@ -14,8 +14,9 @@
 }
 
 .header nav li{
+    font-family: var(--font-roboto);
     color: #F3F3F3;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding-left: 24px;
     font-weight: 700;
 }
