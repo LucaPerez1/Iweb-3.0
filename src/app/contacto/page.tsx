@@ -5,7 +5,7 @@ import './pageContacto.css'
 function contactoPage() {
     return (
         <>
-            <h1 className="mx-4 md:mx-10 my-8 md:my-14 seccionTitle">Estamos listos para potenciar  tu negocio</h1>
+            <h1 className="mx-4 md:mx-10 my-6 md:my-10 seccionTitle">Estamos listos para potenciar  tu negocio</h1>
             <p className="generalDescriptions mx-4 md:mx-10">Un simple email puede marcar una gran diferencia en el crecimiento de tu negocio. Cuéntanos cómo podemos ayudarte completando el formulario o contactándonos a través de nuestras redes sociales.</p>
 
             <div className="md:grid md:grid-cols-2 mx-4 md:mx-10 my-8 md:my-12">

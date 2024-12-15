@@ -1,0 +1,115 @@
+.about {
+    background: linear-gradient(180deg, #275269 0%, #1A3A4B 57.1%, #0C212D 114.2%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.about p {
+    color: #F3F3F3;
+    font-family: var(--font-roboto);
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 400px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.imgContainer img {
+    display: block;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 12px -12px 20px -2px #08E6F5;
+}
+
+.identityContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleIdentityContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    border-bottom: solid #3A3A3A 3px;
+}
+
+.titleIdentityContainer h3 {
+    color: #F3F3F3;
+    font-family: var(--font-roboto);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.identityContainer p {
+    color: #F3F3F3;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.stageContainer p {
+    color: #f3f3f3;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.tileStageContainer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tileStageContainer h3 {
+    position: absolute;
+    color: rgba(39, 82, 105, 0.70);
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 7rem;
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tileStageContainer h4 {
+    position: relative;
+    z-index: 2;
+    color: #f3f3f3;
+    font-family: var(--font-roboto);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

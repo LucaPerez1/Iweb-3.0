@@ -1,0 +1,26 @@
+.cardItem img {
+    width: 360px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 20px 0px #08E6F5;
+}
+
+.cardItem p {
+    color: #f3f3f3;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-bottom: 12px;
+}
+
+.cardItem h3 {
+    color: #F3F3F3;
+    font-family: var(--font-roboto);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

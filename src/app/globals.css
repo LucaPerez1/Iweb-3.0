@@ -3,36 +3,191 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --font-roboto: 'Roboto', sans-serif;
-  --font-lemonada: 'Lemonada',
+	--background: #ffffff;
+	--foreground: #171717;
+	--font-roboto: 'Roboto', sans-serif;
+	--font-lemonada: 'Lemonada',
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
 }
 
 body {
-  color: var(--foreground);
-  background: #191919;
+	color: var(--foreground);
+	background: #191919;
 }
 
 .seccionTitle {
-  font-family: var(--font-lemonada);
-  font-weight: 700;
-  text-align: center;
-  color: #f3f3f3;
-  font-size: 2rem;
+	font-family: var(--font-lemonada);
+	font-weight: 700;
+	text-align: center;
+	color: #f3f3f3;
+	font-size: 2.2rem;
 }
 
 .generalDescriptions {
-  font-family: var(--font-roboto);
-  font-size: 1.3rem;
-  font-weight: 400;
-  text-align: center;
-  color: #f3f3f3;
+	font-family: var(--font-roboto);
+	font-size: 1.3rem;
+	font-weight: 400;
+	text-align: center;
+	color: #f3f3f3;
+}
+
+/*CSS HOME START*/
+
+/*section service start*/
+.white {
+	color: #f3f3f3;
+}
+
+.black {
+	color: #191919;
+}
+
+.cardServiceHome1 {
+	justify-content: center;
+	align-items: center;
+	background-color: #f3f3f3;
+	gap: 40px;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.cardServiceHome2 {
+	justify-content: start;
+	align-items: center;
+	background-color: #275269;
+	gap: 40px;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.cardServiceHome3 {
+	justify-content: start;
+	align-items: center;
+	background-color: #08E6F5;
+	gap: 40px;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.cardServiceHomeDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	gap: 20px;
+}
+
+.cardServiceHomeDescription h3 {
+	font-family: var(--font-roboto);
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.cardServiceHomeDescription p {
+	font-family: var(--font-roboto);
+	font-size: 1.1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/*section services end*/
+
+/*section form start*/
+.formHelp {
+	background-color: #222222;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.formHelp h3 {
+	color: #f3f3f3;
+	font-family: var(--font-lemonada);
+	font-size: 1.8rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+
+.formHelp p {
+	color: #f3f3f3;
+	font-family: var(--font-roboto);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 70px;
+}
+
+.formHelp h4 {
+	color: #f3f3f3;
+	font-family: var(--font-roboto);
+	font-size: 1.2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.formHome {
+	background-image: url('/img/fondo-form-home.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.social h3 {
+	color: #f3f3f3;
+	text-align: center;
+	font-family: var(--font-roboto);
+	font-size: 1.4rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.whatsapp {
+	background-color: #128C7E;
+}
+
+.facebook {
+	background-color: #3B5998;
+}
+
+.instagram {
+	background: linear-gradient(69deg, #FFDC7D 6.56%, #F46F30 23.93%, #C32AA3 45.66%, #7232BD 67.38%, #4C5FD7 93.44%);
+}
+
+.phraseContainer {
+	width: 100%;
+	background-color: #222222;
+	color: #f3f3f3;
+	text-align: center;
+	font-family: var(--font-lemonada);
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 15px 0px;
+}
+
+.phraseContainer span {
+	color: #08E6F5;
 }
