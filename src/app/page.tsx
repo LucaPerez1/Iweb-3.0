@@ -7,6 +7,9 @@ export default function Home() {
 	return (
 		<>
 			<main>
+				<section>
+					<img src="/img/flyer-home.jpg" alt="innovamos tus ideas para aegurar tu exito" />
+				</section>
 
 				<section className="mx-4 md:mx-10 my-8 md:my-16">
 					<h2 className="mb-5 md:mb-10 seccionTitle">LO QUE PODEMOS HACER POR TI </h2>
