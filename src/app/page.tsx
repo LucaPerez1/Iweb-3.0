@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 import FormContact from "./components/FormContact/FormContact";
 import Carousel from "./components/Carousel/Carousel";
 
@@ -7,13 +7,14 @@ export default function Home() {
 	return (
 		<>
 			<main>
-				<h2 className="mx-4 md:mx-10 my- md:my-10 seccionTitle">LO QUE PODEMOS HACER POR TI </h2>
-				<p className="generalDescriptions mx-4 md:mx-10">Transformamos tus grandes ideas en realidades visibles, potenciando  tu negocio para que puedas alcanzar los objetivos que te has propuesto. Te acompañamos en el camino hacia el crecimiento, impulsando tu marca y brindándote las herramientas necesarias para destacar en el mercado y lograr el éxito que deseas</p>
 
-				<section className="mx-4 md:mx-10 my-8 md:my-14">
+				<section className="mx-4 md:mx-10 my-8 md:my-16">
+					<h2 className="mb-5 md:mb-10 seccionTitle">LO QUE PODEMOS HACER POR TI </h2>
+					<p className="generalDescriptions mb-7 md:mb-14">Transformamos tus grandes ideas en realidades visibles, potenciando  tu negocio para que puedas alcanzar los objetivos que te has propuesto. Te acompañamos en el camino hacia el crecimiento, impulsando tu marca y brindándote las herramientas necesarias para destacar en el mercado y lograr el éxito que deseas</p>
+
 					<div className="flex flex-col md:flex-row cardServiceHome1 mb-10">
 						<div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="230" height="248" viewBox="0 0 230 248" fill="none">
+							<svg xmlns="http://www.w3.org/2000/svg" width="180" height="195" viewBox="0 0 230 248" fill="none">
 								<g filter="url(#filter0_dd_229_45)">
 									<path d="M183.293 20.1571H42.0686V220.802H183.293V20.1571Z" fill="#F3F3F3" />
 									<path d="M108.043 71.3419H56.9209V106.508H108.043V71.3419Z" fill="#69C2FF" />
@@ -51,8 +52,8 @@ export default function Home() {
 									<path d="M209.044 61.3745V65.3412H222.781V61.3745H209.044Z" fill="#018A94" />
 								</g>
 								<defs>
-									<filter id="filter0_dd_229_45" x="0" y="0" width="230" height="248" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<filter id="filter0_dd_229_45" x="0" y="0" width="230" height="248" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+										<feFlood floodOpacity="0" result="BackgroundImageFix" />
 										<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 										<feOffset dy="4" />
 										<feGaussianBlur stdDeviation="2" />
@@ -78,7 +79,7 @@ export default function Home() {
 
 					<div className="grid md:grid-cols-2 gap-10">
 						<div className="flex flex-col cardServiceHome2">
-							<svg xmlns="http://www.w3.org/2000/svg" width="259" height="228" viewBox="0 0 259 228" fill="none">
+							<svg xmlns="http://www.w3.org/2000/svg" width="200" height="176" viewBox="0 0 259 228" fill="none">
 								<g filter="url(#filter0_dd_229_104)">
 									<path d="M62.6396 0H242.872C245.956 0 248.914 1.18864 251.094 3.30444C253.275 5.42023 254.5 8.28986 254.5 11.2821V28.2051H62.6396V0Z" fill="#018A94" />
 									<path d="M16.1279 0H62.6395C67.2654 0 71.7018 1.78296 74.9728 4.95665C78.2438 8.13034 80.0814 12.4348 80.0814 16.9231V28.2051H4.5V11.2821C4.5 8.28986 5.72508 5.42023 7.90573 3.30444C10.0864 1.18864 13.044 0 16.1279 0Z" fill="#08E6F5" />
@@ -96,8 +97,8 @@ export default function Home() {
 									<path d="M80.0815 59.2307H39.3838C38.6128 59.2307 37.8734 59.5279 37.3282 60.0568C36.7831 60.5858 36.4768 61.3032 36.4768 62.0512V67.6923C36.4768 68.4403 36.7831 69.1577 37.3282 69.6867C37.8734 70.2156 38.6128 70.5128 39.3838 70.5128C40.1548 70.5128 40.8942 70.2156 41.4393 69.6867C41.9845 69.1577 42.2908 68.4403 42.2908 67.6923V64.8717H56.8256V98.7179H51.0117C50.2407 98.7179 49.5013 99.0151 48.9561 99.544C48.411 100.073 48.1047 100.79 48.1047 101.538C48.1047 102.286 48.411 103.004 48.9561 103.533C49.5013 104.062 50.2407 104.359 51.0117 104.359H68.4536C69.2245 104.359 69.9639 104.062 70.5091 103.533C71.0543 103.004 71.3605 102.286 71.3605 101.538C71.3605 100.79 71.0543 100.073 70.5091 99.544C69.9639 99.0151 69.2245 98.7179 68.4536 98.7179H62.6396V64.8717H77.1745V67.6923C77.1745 68.4403 77.4807 69.1577 78.0259 69.6867C78.5711 70.2156 79.3105 70.5128 80.0815 70.5128C80.8524 70.5128 81.5918 70.2156 82.137 69.6867C82.6822 69.1577 82.9884 68.4403 82.9884 67.6923V62.0512C82.9884 61.3032 82.6822 60.5858 82.137 60.0568C81.5918 59.5279 80.8524 59.2307 80.0815 59.2307Z" fill="#F3F3F3" />
 								</g>
 								<defs>
-									<filter id="filter0_dd_229_104" x="0.5" y="0" width="258" height="228" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<filter id="filter0_dd_229_104" x="0.5" y="0" width="258" height="228" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+										<feFlood floodOpacity="0" result="BackgroundImageFix" />
 										<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 										<feOffset dy="4" />
 										<feGaussianBlur stdDeviation="2" />
@@ -121,7 +122,7 @@ export default function Home() {
 						</div>
 
 						<div className="flex flex-col cardServiceHome3">
-							<svg xmlns="http://www.w3.org/2000/svg" width="259" height="228" viewBox="0 0 259 228" fill="none">
+							<svg xmlns="http://www.w3.org/2000/svg" width="200" height="176" viewBox="0 0 259 228" fill="none">
 								<g filter="url(#filter0_dd_229_84)">
 									<path d="M52.9695 0H208.582C211.288 0 213.883 1.07807 215.797 2.99705C217.711 4.91603 218.786 7.51871 218.786 10.2326V25.5814H52.9695V0Z" fill="#275269" />
 									<path d="M14.7041 0H52.9694C57.0288 0 60.922 1.6171 63.7925 4.49557C66.6629 7.37403 68.2755 11.2781 68.2755 15.3488V25.5814H4.5V10.2326C4.5 7.51871 5.57507 4.91603 7.48871 2.99705C9.40234 1.07807 11.9978 0 14.7041 0Z" fill="#0C212D" />
@@ -140,8 +141,8 @@ export default function Home() {
 									<path d="M149.908 153.488H139.704C138.295 153.488 137.153 154.634 137.153 156.047V161.163C137.153 162.576 138.295 163.721 139.704 163.721H149.908C151.317 163.721 152.459 162.576 152.459 161.163V156.047C152.459 154.634 151.317 153.488 149.908 153.488Z" fill="#8EEBF1" />
 								</g>
 								<defs>
-									<filter id="filter0_dd_229_84" x="0.5" y="0" width="258" height="228" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<filter id="filter0_dd_229_84" x="0.5" y="0" width="258" height="228" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+										<feFlood floodOpacity="0" result="BackgroundImageFix" />
 										<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 										<feOffset dy="4" />
 										<feGaussianBlur stdDeviation="2" />
@@ -167,17 +168,67 @@ export default function Home() {
 				</section>
 
 				<section>
-					<div>
-						<h2>Nuestro proceso</h2>
-						<div>
+					<h2 className="mx-4 md:mx-10 my-5 md:my-10 seccionTitle">Nuestro proceso</h2>
 
+					<div className="itemCardProcess itemCardProcessRigth">
+						<div>
+							<div className="procesImgContainer imgLeft">
+								<img src="/img/analisis-image.jpg" alt="etapa de analisis" />
+							</div>
+						</div>
+						<div className="procesDescriptionContainer descriptionBlack py-6 pl-8 md:pl-24 pr-5 md:pr-10">
+							<span className="mr-6 md:mr-14 lightBlueNumber">01</span>
+							<div>
+								<h3 className="pb-3 md:pb-7">Análisis </h3>
+								<p>En la primera etapa, nos centramos en comprender las necesidades y objetivos del cliente mediante entrevistas y sesiones de descubrimiento. Identificamos requerimientos clave y analizamos el entorno competitivo para conocer sus expectativas y definir funcionalidades esenciales del proyecto, garantizando que el producto final esté alineado con sus metas comerciales.</p>
+							</div>
 						</div>
 					</div>
-					<div>2</div>
-					<div>3</div>
+
+
+					<div className="itemCardProcess itemCardProcessLeft">
+						<div>
+							<div className="procesImgContainer imgRigth">
+								<img src="/img/contacto-image.jpg" alt="etapa de analisis" />
+							</div>
+						</div>
+						<div className="procesDescriptionContainer descriptionWhite py-6 pr-8 md:pr-24 pl-5 md:pl-10">
+							<div>
+								<h3 className="pb-3 md:pb-7">Planificación</h3>
+								<p>Con una perspectiva clara y completa, exploramos distintos enfoques para identificar las mejores opciones a seguir. Diseñamos un plan estratégico detallado que abarca cada fase del proceso y definimos objetivos específicos y medibles, alineados con las metas generales del proyecto. Este enfoque asegura que avancemos de manera organizada y efectiva, siempre enfocados en alcanzar los resultados esperados.</p>
+							</div>
+							<span className="ml-6 md:ml-14 darkBlueNumber">02</span>
+						</div>
+					</div>
+
+					<div className="itemCardProcess itemCardProcessRigth">
+						<div>
+							<div className="procesImgContainer imgLeft">
+								<img src="/img/solucion-image.jpg" alt="etapa de analisis" />
+							</div>
+						</div>
+						<div className="procesDescriptionContainer descriptionBlue py-6 pl-8 md:pl-24 pr-5 md:pr-10">
+							<span className="mr-6 md:mr-14 lightBlueNumber">03</span>
+							<div>
+								<h3 className="pb-3 md:pb-7">Solución</h3>
+								<p>En la fase final, llevamos a cabo la implementación del proyecto siguiendo altos estándares de calidad y prácticas ágiles, asegurando que el producto sea eficiente, escalable y cumpla con todos los requisitos establecidos. Realizamos pruebas exhaustivas para garantizar su óptimo desempeño y ofrecemos soporte al cliente, permitiendo así que aproveche al máximo la solución entregada.</p>
+							</div>
+						</div>
+					</div>
+
 				</section>
 
-				<Carousel />
+				<section className="mx-4 md:mx-10 my-8 md:my-14">
+					<h2 className="mx-4 md:mx-10 my-5 md:my-10 seccionTitle">Descubre en qué hemos estado trabajando </h2>
+					<Carousel />
+					<div className="btnContainerHome">
+						<Link href={'/proyectos'} className="btnHome w-8/12 md:w-4/12">
+							<button>
+								Ver mas
+							</button>
+						</Link>
+					</div>
+				</section>
 
 				<section>
 					<div className="flex flex-col-reverse md:flex-row">
@@ -191,7 +242,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					
+
 					<div className="grid md:grid-cols-3">
 						<div className="social whatsapp py-7 md:py-12">
 							<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 104 104" fill="none">
@@ -214,7 +265,7 @@ export default function Home() {
 					</div>
 
 					<div className="phraseContainer">
-							<h3>Sigamos avanzando juntos <span>hacia el éxito.</span></h3>
+						<h3>Sigamos avanzando juntos <span>hacia el éxito.</span></h3>
 					</div>
 				</section>
 

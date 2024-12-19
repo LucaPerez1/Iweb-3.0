@@ -1,6 +1,13 @@
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .cardItem img {
     width: 360px;
-    height: 330px;
     border-radius: 15px;
     box-shadow: -15px -15px 20px 0px #08E6F5;
 }
@@ -23,4 +30,39 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.slideNavContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
+}
+
+.custom-pagination {
+    display: flex;
+    width: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+    background: #bebebe;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+    background: #08E6F5;
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
