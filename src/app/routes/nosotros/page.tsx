@@ -1,19 +1,18 @@
 import React from "react";
-import CardContacto from "../components/CardContacto/CardConacto";
-import Image from 'next/image';
+import CardContacto from "../../components/CardContacto/CardConacto";
 import './pageNosotros.css'
-import CarouselServicios from "../components/CarouselServicios/CarouselServicios";
-import Mision from "../components/Icons/Mision";
-import Valores from "../components/Icons/Valores";
-import Vision from "../components/Icons/Vision";
-import Consulta from "../components/Icons/Consulta";
-import Reunion from "../components/Icons/Reunion";
-import Analisis from "../components/Icons/Analisis";
-import DiseñoDelPlan from "../components/Icons/DiseñoDelPlan";
-import Desarrollo from "../components/Icons/Desarrollo";
-import Propuesta from "../components/Icons/Propuesta";
-import RevisionDeFeedback from "../components/Icons/RevisionDeFeedback";
-import EntregaFinal from "../components/Icons/EntregaFinal";
+import CarouselServicios from "../../components/CarouselServicios/CarouselServicios";
+import Mision from "../../components/Icons/Mision";
+import Valores from "../../components/Icons/Valores";
+import Vision from "../../components/Icons/Vision";
+import Consulta from "../../components/Icons/Consulta";
+import Reunion from "../../components/Icons/Reunion";
+import Analisis from "../../components/Icons/Analisis";
+import DiseñoDelPlan from "../../components/Icons/DiseñoDelPlan";
+import Desarrollo from "../../components/Icons/Desarrollo";
+import Propuesta from "../../components/Icons/Propuesta";
+import RevisionDeFeedback from "../../components/Icons/RevisionDeFeedback";
+import EntregaFinal from "../../components/Icons/EntregaFinal";
 
 function nosotrosPage() {
     return (
@@ -24,7 +23,7 @@ function nosotrosPage() {
                     <div className=" w-[100%] md:w-[50%] flex flex-col items-center md:items-start">
                         <div className="flex flex-row items-center mb-6">
                             <h1 className="seccionTitle">Sobre</h1>
-                            <Image src="/logo.svg" alt="iweb logo" width={250} height={250} className="w-[150px] md:w-[250px]" />
+                            <img src="/logo.svg" alt="iweb logo" className="w-[150px] md:w-[250px]" />
                         </div>
                         <p className="pb-4 md:pb-8">Somos una startup enfocada en el mundo IT que ofrece soluciones integrales para negocios y emprendedores que buscan destacar en el mundo digital. Nuestros servicios abarcan desde el desarrollo web y diseño UX/UI, hasta e-commerce, desarrollo de software, SEO y diseño gráfico. Buscamos crecer junto a nuestros clientes, impulsando su éxito y acompañándolos en cada paso.</p>
                         <p>Contamos con un equipo de profesionales que trabajan combinando tecnologías de vanguardia con un enfoque creativo para garantizar resultados de alta calidad que sobresalgan y generen valor esperado.</p>
@@ -108,7 +107,7 @@ function nosotrosPage() {
             <section className="mx-4 md:mx-10 my-10 md:my-14">
                 <div className="grid grid-rows-3 md:grid-cols-2 md:grid-rows-2 gap-y-7 gap-x-6 md:gap-x-16 mb-10 md:mb-14">
                     <div className="workFlowDescription row-span-1 col-span-1">
-                        <h2 className="mb-4 md:mb-7">Nuestro método</h2>
+                        <h2 className="mb-4 md:mb-7">NUESTRO MÉTODO</h2>
                         <p>Ya sea que necesites desarrollar un manual marca, crear un branding sólido, diseñar una página web o mejorar el posicionamiento de tu negocio, nuestro método de trabajos se basa en los siguientes pasos clave.</p>
                     </div>
 

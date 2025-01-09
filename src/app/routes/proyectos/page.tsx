@@ -1,6 +1,6 @@
 import React from "react";
-import CardContacto from "../components/CardContacto/CardConacto";
-import CardProyects from "../components/CardProyects/CardProyects";
+import CardContacto from "../../components/CardContacto/CardConacto";
+import CardProyects from "../../components/CardProyects/CardProyects";
 
 function proyectos () {
     return (

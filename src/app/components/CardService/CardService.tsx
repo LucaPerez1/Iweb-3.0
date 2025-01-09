@@ -1,7 +1,16 @@
 import React from "react";
 import './cardService.css'
 
-const CardService = ({ title, subtitle, description, imgSrc, altText, reverse }: any) => {
+interface CardServiceProps {
+    title: string;
+    subtitle: string;
+    description: string[];
+    imgSrc: string;
+    altText: string;
+    reverse?: boolean; 
+}
+
+const CardService:React.FC<CardServiceProps> = ({ title, subtitle, description, imgSrc, altText, reverse }) => {
     return (
         <div
             className={`service flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} items-center mx-4 md:mx-10 mt-16 gap-4`}

@@ -1,6 +1,6 @@
 import React from "react";
-import CardContacto from "../components/CardContacto/CardConacto";
-import CardService from "../components/CardService/CardService";
+import CardContacto from "../../components/CardContacto/CardConacto";
+import CardService from "../../components/CardService/CardService";
 
 const services = [
     {

@@ -1,11 +1,11 @@
 import React from "react"
-import FormContact from "../components/FormContact/FormContact"
+import FormContact from "../../components/FormContact/FormContact"
 import './pageContacto.css'
-import Whatsapp from "../components/Icons/Whatsapp"
-import Consulta from "../components/Icons/Consulta"
-import Instagram from "../components/Icons/Instagram"
-import Facebook from "../components/Icons/Facebook"
-import Linkedin from "../components/Icons/Linkedin"
+import Whatsapp from "../../components/Icons/Whatsapp"
+import Consulta from "../../components/Icons/Consulta"
+import Instagram from "../../components/Icons/Instagram"
+import Facebook from "../../components/Icons/Facebook"
+import Linkedin from "../../components/Icons/Linkedin"
 
 function contactoPage() {
     return (

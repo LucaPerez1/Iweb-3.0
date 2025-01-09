@@ -14,7 +14,7 @@ export default function Home() {
 		<>
 			<main>
 				<section>
-					<img src="/img/flyer-home.jpg" alt="innovamos tus ideas para aegurar tu exito" />
+					<img src="/img/flyer-home.jpg" alt="innovamos tus ideas para aegurar tu exito" className="w-[100%]"/>
 				</section>
 
 			{/*SECTION SERVICE HOME START*/}

@@ -4,36 +4,36 @@ import './carouselServicios.css'
 
 const CarouselServicios = () => {
     const carruselRef = useRef(null);
-    let offset = 0;
-
-    // Función para desplazar el carrusel
-    const scrollCarrusel = () => {
-        const carrusel = carruselRef.current;
-
-        if (carrusel) {
-            const firstChild = carrusel.firstElementChild;
-            const firstChildWidth = firstChild.offsetWidth;
-
-            // Actualizar posición
-            offset -= 1; // Velocidad del desplazamiento
-            carrusel.style.transform = `translateX(${offset}px)`;
-
-            // Cuando el primer elemento desaparece por completo, se reubica
-            if (Math.abs(offset) >= firstChildWidth) {
-                carrusel.style.transition = "none"; // Elimina la animación temporalmente
-                carrusel.appendChild(firstChild); // Mueve el primer elemento al final
-                offset += firstChildWidth; // Ajustar el offset después de mover el elemento
-                carrusel.style.transform = `translateX(${offset}px)`; // Restablece la posición
-                
-            }
-        }
-
-        requestAnimationFrame(scrollCarrusel); // Continuar el desplazamiento
-    };
+    const offsetRef = useRef(0); 
 
     useEffect(() => {
-        scrollCarrusel(); // Inicia el desplazamiento
+        const scrollCarrusel = () => {
+            const carrusel = carruselRef.current;
+
+            if (carrusel) {
+                const firstChild = carrusel.firstElementChild;
+                const firstChildWidth = firstChild.offsetWidth;
+
+                offsetRef.current -= 1; 
+                carrusel.style.transform = `translateX(${offsetRef.current}px)`;
+
+                if (Math.abs(offsetRef.current) >= firstChildWidth) {
+                    carrusel.style.transition = "none";
+                    carrusel.appendChild(firstChild);
+                    offsetRef.current += firstChildWidth;
+                    carrusel.style.transform = `translateX(${offsetRef.current}px)`;
+                }
+            }
+
+            return requestAnimationFrame(scrollCarrusel);
+        };
+
+        const animationId = requestAnimationFrame(scrollCarrusel); 
+
+        return () => cancelAnimationFrame(animationId);
+
     }, []);
+
 
     return (
         <div>
