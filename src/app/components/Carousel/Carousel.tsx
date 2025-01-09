@@ -11,7 +11,7 @@ import SlideNavButtons from './SlideNavButtons';
 
 const Carousel = () => {
     return (
-        <div className=''>
+        <div>
             <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={10}

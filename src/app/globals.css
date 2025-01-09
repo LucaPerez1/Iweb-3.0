@@ -103,14 +103,6 @@ body {
 /*section services end*/
 
 /*section proces start*/
-
-.itemCardProcess {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    position: relative;
-}
-
 .itemCardProcess h3, .itemCardProcess p, .itemCardProcess span {
     font-family: var(--font-roboto);
     font-style: normal;
@@ -132,74 +124,41 @@ body {
     font-weight: 700;
 }
 
-.lightBlueNumber{
-	color: rgba(8, 230, 245, 0.50);
+.imgRight {
+	clip-path: polygon(100% 0%, 0% 0%, 30% 50%, 0% 100%, 100% 100%);
 }
 
-.darkBlueNumber {
-	color: rgba(39, 82, 105, 0.70);
-}
-
-.itemCardProcessRigth{
-	justify-content: end;
-}
-
-.itemCardProcessLeft {
-	justify-content: start;
-}
-
-.procesImgContainer {
-    width: 35%; 
-    height: 100%;
-    z-index: 1;
+.imgLeft {
+	clip-path: polygon(0% 0%, 98% 0%, 70% 50%, 98% 100%, 0% 100%)
 }
 
 .procesImgContainer img {
     width: 100%;
-    height: 99.8%;
+    height: 100%;
     object-fit: cover;
 }
 
-.imgLeft {
-	position: absolute; 
-    left: 0;
-    top: 0.2%;
-}
-
-.imgRigth {
-	position: absolute;
-	right: 0px;
-	top: 0%;
-}
-
 .procesDescriptionContainer {
-    width: 75%;
-    min-height: 320px;
-    display: flex;
-    flex-direction: row;
+    width: 100%;
     justify-content: center;
+	min-height: 350px;
     align-items: center;
-    z-index: 2;
 }
 
 .descriptionBlack {
-    background: linear-gradient(277deg, #0C0C0C 9.66%, #2F2F2F 84.91%);
+    background: linear-gradient(277deg, #0C0C0C 9.66%, #2F2F2F 70.91%);
     color: #f3f3f3;
-    clip-path: polygon(0% 50%, 10% 0%, 100% 0%, 100% 100%, 10% 100%);
 }
 
 .descriptionWhite {
     background: #f3f3f3;
     color: #191919;
-    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
 }
 
 .descriptionBlue{
     background: linear-gradient(277deg, #0C212D 17.97%, #275269 84.88%);;
     color: #f3f3f3;
-    clip-path: polygon(0% 50%, 10% 0%, 100% 0%, 100% 100%, 10% 100%);
 }
-
 /*section proces end*/
 
 /*section proyects start*/
@@ -316,3 +275,14 @@ body {
 }
 
 /*section form end*/
+
+/*Break points*/ 
+@media (max-width: 768px) {
+	.imgLeft, .imgRight {
+		clip-path: polygon(0% 100%, 50% 85%, 100% 100%, 100% 0%, 0% 0%);
+	}
+
+	.procesImgContainer img{
+		height: 350px;
+	}
+}

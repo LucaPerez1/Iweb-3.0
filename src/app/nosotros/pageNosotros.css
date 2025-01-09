@@ -1,7 +1,10 @@
+/*SECTION ABOUT US START*/
 .about {
     background: linear-gradient(180deg, #275269 0%, #1A3A4B 57.1%, #0C212D 114.2%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
-    padding: 40px;
+}
+
+.aboutContainer {
     position: relative;
     z-index: 1;
 }
@@ -9,33 +12,21 @@
 .about p {
     color: #F3F3F3;
     font-family: var(--font-roboto);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 24px;
-}
-
-.imgContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 530px;
-    height: 400px;
-    position: absolute;
-    top: 40px;
-    right: 40px;
 }
 
 .imgContainer img {
-    display: block;
     width: 100%;
-    max-height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 12px -12px 20px -2px #08E6F5;
+    box-shadow: 12px 12px 20px -2px #08E6F5;
 }
+/*SECTION ABOUT US END*/
 
+/*SECTION IDENTITY START*/
 .identityContainer {
     display: flex;
     flex-direction: column;
@@ -69,7 +60,9 @@
     line-height: normal;
     margin-top: 20px;
 }
+/*SECTION IDENTITY END*/
 
+/*SECTION PROCES START*/
 .stageContainer p {
     color: #f3f3f3;
     font-family: var(--font-roboto);
@@ -91,7 +84,6 @@
 
 .tileStageContainer h3 {
     position: absolute;
-    color: rgba(39, 82, 105, 0.70);
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -113,3 +105,69 @@
     font-weight: 700;
     line-height: normal;
 }
+/*SECTION PROCES END*/
+
+/*SECTION WORK FLOW START*/
+.workFlowDescription h2 {
+    color: #F3F3F3;
+    font-family: var(--font-lemonada);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.workFlowDescription p {
+    color: #F3F3F3;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.workFlowImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workFlowImgContainer img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 12px 12px 20px -2px #08E6F5;
+}
+
+.stepContainer {
+    position: relative;
+    justify-content: space-between;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.stepCircle {
+    background-color: rgb(8, 230, 245);
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.stepName {
+    color: #F3F3F3;
+    text-align: center;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 100px;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #08E6F5;
+    z-index: -1;
+}
+/*SECTION WORK FLOW END*/
