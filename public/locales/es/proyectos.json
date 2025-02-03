@@ -1,0 +1,31 @@
+{
+    "mainTitle": "Nuestro proyectos",
+
+    "mainText": "Estamos comprometidos con nuestros clientes, sus pasiones, sus objetivos y sus propósitos. Analizamos y nos aseguramos de que cada proyecto que emprendemos, logre resultados únicos y mantenga su esencia.",
+
+    "proyects": [
+        {
+            "id": 1,
+            "title": "Nombre del proyecto de mierda",
+            "subtitle": "e-Commerce",
+            "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo numquam beatae, necessitatibus obcaecati quibusdam commodi, provident deleniti adipisci inventore, voluptate velit sequi consectetur maiores. Amet eum, velit doloremque aliquam dolores consequuntur doloribus optio officia, inventore animi placeat, excepturi numquam ipsum ad ratione sequi dolore. Officiis deleniti sequi eum nobis dicta aliquid veritatis quibusdam dignissimos quos quis! Repudiandae porro adipisci ut labore possimus, tempore dicta quisquam iusto libero consequuntur odit iste mollitia, est delectus perspiciatis! Eaque architecto voluptates assumenda saepe natus?"
+                
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "btn":"Ver proyecto"
+        },
+        {
+            "id": 2,
+            "title": "Nombre del proyecto de mierda",
+            "subtitle": "e-Commerce",
+            "description": [
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo numquam beatae, necessitatibus obcaecati quibusdam commodi, provident deleniti adipisci inventore, voluptate velit sequi consectetur maiores. Amet eum, velit doloremque aliquam dolores consequuntur doloribus optio officia, inventore animi placeat, excepturi numquam ipsum ad ratione sequi dolore. Officiis deleniti sequi eum nobis dicta aliquid veritatis quibusdam dignissimos quos quis! Repudiandae porro adipisci ut labore possimus, tempore dicta quisquam iusto libero consequuntur odit iste mollitia, est delectus perspiciatis! Eaque architecto voluptates assumenda saepe natus?"
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "btn":"Ver proyecto"
+        }
+    ]
+}

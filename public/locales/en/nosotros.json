@@ -1,0 +1,67 @@
+{
+	"titleAboutUs": "About",
+
+	"firstTextAboutUs": "We are a startup focused on the IT world, offering comprehensive solutions for businesses and entrepreneurs looking to stand out in the digital space. Our services range from web development and UX/UI design to e-commerce, software development, SEO, and graphic design. We strive to grow alongside our clients, driving their success and supporting them every step of the way.",
+
+	"secondTextAboutUs": "We have a team of professionals who combine cutting-edge technologies with a creative approach to deliver high-quality results that stand out and generate the expected value.",
+
+	"altImageAboutUs": "Team development",
+
+	"misionTitle": "Mission",
+
+	"misionText": "Our mission is to develop high-quality web and software solutions that drive our clients' growth through a personalized, creative, and innovative approach. We are committed to deeply understanding the needs of each project and being a reliable partner, creating efficient, scalable, and flexible products that enhance business competitiveness in the digital environment.",
+
+	"valuesTitle": "Values",
+
+	"valuesText": "Creativity, commitment, constant innovation, excellence, responsibility, adaptability, flexibility, and customer satisfaction are our core values. Guided by these ethical principles, we deliver high-quality solutions that drive our clients' growth.",
+
+	"visionTitle": "Vision",
+
+	"visionText": "We aim to become a recognized company in the IT world, standing out for creating innovative and personalized solutions for each of our clients. We aspire to be the first choice for companies looking to improve in the IT world, driving digital transformation through a focus on technical excellence, creativity, and outstanding customer service.",
+
+	"processSectionTitle": "Our process",
+
+	"titleAnalysis": "Analysis",
+
+	"firstTextAnalysis": "In this first stage, we focus on thoroughly understanding the client's needs and objectives through interviews and discovery sessions, identifying key requirements and analyzing their competitive landscape. This process allows us to understand their expectations, identify opportunities, and define the essential functionalities of the project, ensuring that the final product aligns with their business goals.",
+
+	"secondTextAnalysis": "Our analysis work also involves a detailed examination of the competitive landscape, enabling us to highlight and accentuate the business's differentiators to help it stand out in its market.",
+
+	"titlePlanning": "Planning",
+
+	"firstTextPlanning": "Based on the analysis, we develop a detailed plan that defines the project structure and necessary resources. We build the solution architecture, identifying the technical elements and tools we will use, while outlining a clear roadmap to guide each phase of development.",
+
+	"secondTextPlanning": "Throughout the process, we maintain continuous communication with the client to ensure that each step aligns with their expectations, formulating clear recommendations that define the essence of their brand. This way, we establish a solid strategy and precise solutions, tailored to the unique needs of the business.",
+
+	"titleSolution": "Solution",
+
+	"textSolution": "In this final stage, we implement the project development under high-quality standards and agile practices, focusing on creating an efficient, scalable product aligned with the defined requirements. Our team conducts rigorous testing to ensure the product's functionality and optimization, ensuring a smooth implementation. Additionally, we provide support to help the client make the most of the delivered solution.",
+
+	"workFlowSectionTitle": "OUR METHOD",
+
+	"workFlowSectionText": "Whether you need to develop a brand manual, create solid branding, design a website, or improve your business's positioning, our working method is based on the following key steps.",
+
+	"workFlowImageAlt": "working method",
+
+	"stepConsultaion": "Your inquiry",
+
+	"stepMeeting": "1st meeting",
+
+	"stepAnalysis": "Analysis",
+
+	"stepPlanDesign": "Plan design",
+
+	"stepDevelopment": "Development",
+
+	"stepProposals": "Proposal delivery",
+
+	"stepFeedback": "Feedback review",
+
+	"stepFinal": "Final delivery",
+
+	"cardNosotrosFirstTitle": "Let's achieve success together",
+
+	"cardNosotrosSecondTitle": "YOUR VISION + OUR INGENUITY",
+
+	"cardNosotrosBtn": "Contact us"
+}

@@ -3,15 +3,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
-import { Roboto_Slab, Lemonada } from 'next/font/google' 
+import { Roboto_Slab, Lemonada } from 'next/font/google'
+import I18nProvider from "./components/I18nProvider/I18nProvider";
+import LanguageLoader from "./components/LanguageLoader/LanguageLoader";
 
-const roboto = Roboto_Slab ({
+const roboto = Roboto_Slab({
   subsets: ['latin'],
-  weight:['300', '400', '500','700', '900'],
-  variable:'--font-roboto',
-}); 
+  weight: ['300', '400', '500', '700', '900'],
+  variable: '--font-roboto',
+});
 
-const lemonada = Lemonada ({
+const lemonada = Lemonada({
   subsets: ['latin'],
   variable: '--font-lemonada'
 })
@@ -26,14 +28,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${lemonada.variable} antialiased`}>
-        <NavBar />
-        {children}
-        <Footer />
+      <body className={`${roboto.variable} ${lemonada.variable} antialiased`}>
+        <I18nProvider>
+          <LanguageLoader> 
+            <NavBar />
+            {children}
+            <Footer />
+          </LanguageLoader>
+        </I18nProvider>
       </body>
     </html>
   );
 }
+
+

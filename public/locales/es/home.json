@@ -1,0 +1,61 @@
+{
+    "serviceSectionTitle": "Lo que podemos hacer por ti",
+    
+    "serviceSectionText": "Transformamos tus grandes ideas en realidades visibles, potenciando  tu negocio para que puedas alcanzar los objetivos que te has propuesto. Te acompañamos en el camino hacia el crecimiento, impulsando tu marca y brindándote las herramientas necesarias para destacar en el mercado y lograr el éxito que deseas.",
+
+    "customDesignTitle": "Diseño personalizado",
+
+    "customDesignText": "Diseñamos interfaces únicas y atractivas que no solo reflejan la identidad de tu marca, sino que también están centradas en el usuario para ofrecer experiencias intuitivas y fluidas. Capturando la atención de tus visitante y destacando tu negocio en un entorno competitivo.",
+
+    "responsiveDesignTitle": "Desarrollo web de alto rendimiento y diseño responsive",
+
+    "responsiveDesignText": "Nuestros desarrolladores crean sitios rápidos, seguros y altamente funcionales, asegurando una excelente experiencia de usuario. Nos enfocamos en que tu website se vea y funcione perfectamente en cualquier dispositivo, brindando una experiencia fluida y optimizada para todos los usuarios.",
+
+    "seoTitle": "Optimización del posicionamiento (SEO)",
+
+    "seoText": "Optimizamos el posicionamiento de tu sitio web en los buscadores con estrategias avanzadas de SEO. Impulsando la visibilidad de tu negocio para atraer tráfico de calidad y aumentar tu alcance en el mercado.",
+
+    "procesSectionTitle":"Nuestro proceso",
+
+    "stageAnalysisAltImage": "etapa de análisis",
+
+    "stageAnalysisTitle": "Análisis",
+
+    "stageAnalysisText":"En la primera etapa, nos centramos en comprender las necesidades y objetivos del cliente mediante entrevistas y sesiones de descubrimiento. Identificamos requerimientos clave y analizamos el entorno competitivo para conocer sus expectativas y definir funcionalidades esenciales del proyecto, garantizando que el producto final esté alineado con sus metas comerciales.",
+
+    "stagePlanningAltImage": "etapa de Planificación",
+
+    "stagePlanningTitle": "Planificación",
+
+    "stagePlanningText": "Con una perspectiva clara y completa, exploramos distintos enfoques para identificar las mejores opciones a seguir. Diseñamos un plan estratégico detallado que abarca cada fase del proceso y definimos objetivos específicos y medibles, alineados con las metas generales del proyecto. Este enfoque asegura que avancemos de manera organizada y efectiva, siempre enfocados en alcanzar los resultados esperados.",
+
+    "stageSolutionAltImage": "etapa de solucion",
+
+    "stageSolutionTitlte": "Solución",
+
+    "stageSolutionText": "En la fase final, llevamos a cabo la implementación del proyecto siguiendo altos estándares de calidad y prácticas ágiles, asegurando que el producto sea eficiente, escalable y cumpla con todos los requisitos establecidos. Realizamos pruebas exhaustivas para garantizar su óptimo desempeño y ofrecemos soporte al cliente, permitiendo así que aproveche al máximo la solución entregada.",
+
+    "carouselSectionTitle":"Descubre en qué hemos estado trabajando",
+
+    "btnCarousel": "Ver mas",
+
+    "formTitle": "¿Cómo podemos ayudarte?",
+
+    "formText": "Un simple email puede marcar una gran diferencia en el crecimiento de tu negocio. Cuéntanos cómo podemos ayudarte.",
+
+    "formSubTitle": "También podes contactarnos a través de nuestras redes",
+
+    "phraseText": "Sigamos avanzando juntos",
+
+    "phraseSpan": "hacia el éxito.",
+
+    "formInputName": "Tu nombre o el de tu empresa",
+
+    "formInputPhone": "Teléfono",
+
+    "formInputEmail": "Correo electrónico",
+
+    "formInputMessage": "Mensaje / Desafío",
+
+    "btnForm": "Enviar"
+}

@@ -1,0 +1,31 @@
+{
+    "mainTitle": "Our Projects",
+
+    "mainText": "We are committed to our clients, their passions, their goals, and their purposes. We analyze and ensure that every project we undertake achieves unique results and maintains its essence.",
+
+    "proyects": [
+        {
+            "id": 1,
+            "title": "Project Name",
+            "subtitle": "e-Commerce",
+            "description": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam beatae, necessitatibus obcaecati quibusdam commodi, provident deleniti adipisci inventore, voluptate velit sequi consectetur maiores. Amet eum, velit doloremque aliquam dolores consequuntur doloribus optio officia, inventore animi placeat, excepturi numquam ipsum ad ratione sequi dolore. Officiis deleniti sequi eum nobis dicta aliquid veritatis quibusdam dignissimos quos quis! Repudiandae porro adipisci ut labore possimus, tempore dicta quisquam iusto libero consequuntur odit iste mollitia, est delectus perspiciatis! Eaque architecto voluptates assumenda saepe natus?"
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "Hipólito Yrigoyen dealership project",
+            "btn":"View project"
+        },
+        {
+            "id": 2,
+            "title": "Project Name",
+            "subtitle": "e-Commerce",
+            "description": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam beatae, necessitatibus obcaecati quibusdam commodi, provident deleniti adipisci inventore, voluptate velit sequi consectetur maiores. Amet eum, velit doloremque aliquam dolores consequuntur doloribus optio officia, inventore animi placeat, excepturi numquam ipsum ad ratione sequi dolore. Officiis deleniti sequi eum nobis dicta aliquid veritatis quibusdam dignissimos quos quis! Repudiandae porro adipisci ut labore possimus, tempore dicta quisquam iusto libero consequuntur odit iste mollitia, est delectus perspiciatis! Eaque architecto voluptates assumenda saepe natus?"
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "Hipólito Yrigoyen dealership project",
+            "btn":"View project"
+        }
+    ]
+
+}

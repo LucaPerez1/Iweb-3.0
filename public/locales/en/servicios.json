@@ -1,0 +1,88 @@
+{
+    "mainTitle": "Our Areas of Work",
+
+    "services": [
+    {   
+        "id": 1,
+        "title": "Web Development",
+        "subtitle": "01",
+        "description": [
+            "If there’s one thing COVID and the pandemic taught us, it’s that businesses without a website today don’t have a solid presence on the Internet. That’s why we specialize in designing and developing custom websites that captivate your audience and enhance user experience.",
+            "We offer customized web development services for businesses looking for an attractive and functional digital presence, including corporate websites, online stores, blogs, social networks, forums, and more."
+        ],
+        "imgSrc": "../img/servicio-desarrollo-web.png",
+        "altText": "web development service",
+        "reverse": false
+    },
+    {
+        "id": 2,
+        "title": "UX/UI Design",
+        "subtitle": "02",
+        "description": [
+            "We design user-centered interfaces that not only optimize usability but also increase customer satisfaction and loyalty. We offer customized UX/UI design services for companies looking to enhance the user experience and interface of their digital products, adapting to users' needs and behaviors.",
+            "Our team creates intuitive and visually appealing designs that improve usability, engagement, and interaction, ultimately driving better results for your business. By focusing on the complete user experience, we help ensure that your digital product not only meets expectations but exceeds them."
+        ],
+        "imgSrc": "../img/servicio-diseño-uxui.png",
+        "altText": "UX/UI design service",
+        "reverse": true
+    },
+    {
+        "id": 3,
+        "title": "Software Development",
+        "subtitle": "03",
+        "description": [
+            "Our software development service is designed to create tailor-made solutions that drive efficiency and business growth. From web and mobile applications to complex management systems, we transform ideas into technological products adapted to each company's specific needs. Our team combines advanced technical expertise with creativity to develop scalable and secure applications.",
+            "We address each stage of the process, from requirements analysis to implementation and maintenance, ensuring a comprehensive approach that guarantees quality and alignment with business objectives. With our service, companies optimize their operations, enhance user experience, and gain a competitive edge in the digital market."
+        ],
+        "imgSrc": "../img/servicio-desarrollo-software.png",
+        "altText": "software development service",
+        "reverse": false
+    },
+    {
+        "id": 4,
+        "title": "Graphic Design",
+        "subtitle": "04",
+        "description": [
+            "We transform ideas into impactful designs that communicate your message visually and effectively. We offer customized graphic design solutions for companies seeking an attractive and distinctive visual identity. Our team creates original pieces that capture attention and reinforce your brand message.",
+            "Our services include visual design and development, as well as branding and rebranding. We focus on creating a solid image that stands out in the market. We design logos, flyers, business cards, corporate letterheads, envelopes, brochures, and more."
+        ],
+        "imgSrc": "../img/servicio-diseño-grafico.png",
+        "altText": "graphic design service",
+        "reverse": true
+    },
+    {
+        "id": 5,
+        "title": "SEO/SEM",
+        "subtitle": "05",
+        "description": [
+            "We optimize your visibility in search engines so your business can be easily found online. Our team offers organic positioning services designed specifically for companies looking to stand out in search results. We handle both website and content optimization, using effective strategies that include keyword optimization and the creation of relevant content that attracts quality traffic."
+        ],
+        "imgSrc": "../img/servicio-posicionamiento-organico.png",
+        "altText": "organic positioning service",
+        "reverse": false
+    },
+    {
+        "id": 6,
+        "title": "e-Commerce",
+        "subtitle": "06",
+        "description": [
+            "We build e-Commerce platforms that boost your sales and attract new buyers. Our team specializes in developing personalized, effective, and secure online stores to sell products or services. We create intuitive and optimized online stores with designs that reflect your brand identity.",
+            "We evaluate and analyze each client’s goals to implement the most suitable and personalized strategy. Sell online easily and securely, expanding your clientele and taking your business to the next level."
+        ],
+        "imgSrc": "../img/servicio-ecommerce.png",
+        "altText": "eCommerce development service",
+        "reverse": true
+    },
+    {
+        "id": 7,
+        "title": "Digital Advertising",
+        "subtitle": "07",
+        "description": [
+            "We create effective advertising campaigns on Facebook, Instagram, and Google that increase your business’s visibility and reach. Our digital advertising services are designed for companies looking to maximize their online presence. Our team develops optimized campaigns, focusing on digital advertising strategies, social media ads, and Google Ads campaigns to maximize return on investment."
+        ],
+        "imgSrc": "../img/servicio-posicionamiento-organico.png",
+        "altText": "digital advertising service",
+        "reverse": false
+    }
+]
+}

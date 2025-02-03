@@ -1,18 +1,38 @@
+'use client'
 import React from "react";
 import CardContacto from "../../components/CardContacto/CardConacto";
 import CardProyects from "../../components/CardProyects/CardProyects";
+import { useTranslation } from "next-i18next";
 
-function proyectos () {
+interface Proyect{
+    id: number;
+    title: string;
+    subtitle: string;
+    description: string[];
+    imgSrc: string;
+    altText: string;
+    btn:string;
+}
+
+
+function ProyectosPage () {
+    const { t } = useTranslation('proyectos');
+    const proyects: Proyect[] = t('proyects', { returnObjects: true }) as Proyect[];
+    
     return (
         <>
-            <h1 className="mx-4 md:mx-10 my-6 md:my-10 seccionTitle">Nuestro proyectos</h1>
-            <p className="generalDescriptions mx-4 md:mx-10">Estamos comprometidos con nuestros clientes, sus pasiones, sus objetivos y sus propósitos. Analizamos y nos aseguramos de que cada proyecto que emprendemos, logre resultados únicos y mantenga su esencia.</p>
+            <h1 className="mx-4 md:mx-10 my-6 md:my-10 seccionTitle">{t('mainTitle')}</h1>
+            <p className="generalDescriptions mx-4 md:mx-10">{t('mainText')}</p>
 
-            <CardProyects />
+            <div>
+                {proyects.map((proyect)=> (
+                    <CardProyects key={proyect.id} {...proyect}/>
+                ))}
+            </div>
             
             <CardContacto />
         </>
     )
 }
 
-export default proyectos
+export default ProyectosPage
