@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-if (!i18n.isInitialized) {  //Previene inicialización múltiple
+if (!i18n.isInitialized) {  
     i18n
         .use(HttpBackend)
         .use(LanguageDetector)

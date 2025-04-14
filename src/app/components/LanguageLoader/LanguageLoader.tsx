@@ -16,10 +16,10 @@ export default function LanguageLoader({ children }: { children: React.ReactNode
                 setProgress((prev) => {
                     if (prev >= 100) {
                         clearInterval(interval);
-                        setTimeout(() => setIsReady(true), 300); // Pequeño retraso para un mejor efecto visual
+                        setTimeout(() => setIsReady(true), 300); 
                         return 100;
                     }
-                    return prev + 10; // Incremento de la barra de carga
+                    return prev + 10;
                 });
             }, 100);
         };

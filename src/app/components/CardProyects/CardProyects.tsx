@@ -8,6 +8,7 @@ interface CardProyectProps {
     imgSrc: string;
     altText: string;
     btn:string;
+    // status: "Desarrollo" | "Entregado"
 }
 
 const CardProyects:React.FC<CardProyectProps> = ({ title, subtitle, description, imgSrc, altText,btn}) => {
