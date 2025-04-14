@@ -17,7 +17,7 @@ export default function Home() {
 		<>
 			<main>
 				<section>
-					<img src="/img/flyer-home.jpg" alt="innovamos tus ideas para aegurar tu exito" className="w-[100%]" />
+					<video src="/img/home-movie.mp4" autoPlay loop muted></video>
 				</section>
 
 				{/*SECTION SERVICE HOME START*/}
