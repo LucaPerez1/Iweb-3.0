@@ -1,0 +1,45 @@
+{
+    "mainTitle": "Nuestro proyectos",
+
+    "mainText": "Estamos comprometidos con nuestros clientes, sus pasiones, sus objetivos y sus propósitos. Analizamos y nos aseguramos de que cada proyecto que emprendemos, logre resultados únicos y mantenga su esencia.",
+
+    "proyects": [
+        {
+            "id": 1,
+            "title": "CM Contrucciones",
+            "subtitle": "Landing page",
+            "description": [
+                "Realizamos el diseño y desarrollo de la landing page para CM construcciones que cuenta con mas de  25 años dentro de la industria de contruccion en seco. Buscamos comunicar de forma efectiva los valores que la diferencian de su competencia: rapidez, eficiencia y calidad utilizando un enfoque limpio y modeno.",
+
+                "En ella destacamos los principales servicios ofrecidos (Tabiqueria, Cieolorraso, revestimientos, Tratamientosacusticos),  los sistemas constructivos utilizados (steel framing, drywall, paneles aislantes) y los beneficios que brinda la construccion en seco a los clientes: reducción de tiempos de obra, menor generación de residuos y optimización de costos, sin sacrificar seguridad ni confort."
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "btn":"Ver proyecto"
+        },
+        {
+            "id": 2,
+            "title": "Automotores Yrigoyen",
+            "subtitle": "Pagina empresarial",
+            "description": [
+                "Creamos una pagina web moderna y agil para Automotores Yrigoyen pensada para conectar directamente a la concesionaria con su potenciales clientes. Con un diseño atractivo y funcional, desarrollamos una experiencia centrada en la confianza, la claridad y la conversión. Los autos disponibles se presentan con filtros inteligentes, fichas técnicas detalladas y fotos de alta calidad, lo que facilita la búsqueda y la toma de decisiones. Además, incorporamos un sistema para que los usuarios puedan enviar los datos de su vehículo y recibir una tasación sin moverse de su casa.",
+
+                "La web también incluye secciones institucionales, formularios de contacto, integración con WhatsApp y enlaces a redes sociales, generando un canal de comunicación directo y eficaz. Todo está optimizado para que cada visita se transforme en una consulta o en una vent."
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "btn":"Ver proyecto"
+        },
+        {
+            "id": 3,
+            "title": "Serena",
+            "subtitle": "Pagina empresarial",
+            "description": [
+                "Ni idea"
+            ],
+            "imgSrc": "../img/proyecto.png",
+            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "btn":"Ver proyecto"
+        }
+    ]
+}

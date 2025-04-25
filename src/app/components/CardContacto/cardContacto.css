@@ -1,0 +1,81 @@
+.cardContacto {
+    background-image: url('/img/contacto-image.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(25, 25, 25, 0.85);
+}
+
+.titleCardContainer p {
+    font-family: var(--font-roboto);
+    color: #08E6F5;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.titleCardContainer h3 {
+    font-family: var(--font-lemonada);
+    color: #f3f3f3;
+    text-align: center;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.btn {
+    min-width: 60%;
+}
+
+.btn button{
+    font-family: var(--font-roboto);
+    width: 100%;
+    background: #08E6F5;
+    padding: 12px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .cardContacto{
+        flex-direction: column;
+    }
+
+    .titleCardContainer {
+        width: 100%;
+    }
+
+    .btnContainer{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+}
