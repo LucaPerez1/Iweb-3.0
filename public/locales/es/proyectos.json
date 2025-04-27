@@ -13,8 +13,8 @@
 
                 "En ella destacamos los principales servicios ofrecidos (Tabiqueria, Cieolorraso, revestimientos, Tratamientosacusticos),  los sistemas constructivos utilizados (steel framing, drywall, paneles aislantes) y los beneficios que brinda la construccion en seco a los clientes: reducción de tiempos de obra, menor generación de residuos y optimización de costos, sin sacrificar seguridad ni confort."
             ],
-            "imgSrc": "../img/proyecto.png",
-            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "imgSrc": "../img/mockup-cm-construcciones.jpg",
+            "altText": "diseño web de cm construcciones",
             "btn":"Ver proyecto"
         },
         {
@@ -26,19 +26,30 @@
 
                 "La web también incluye secciones institucionales, formularios de contacto, integración con WhatsApp y enlaces a redes sociales, generando un canal de comunicación directo y eficaz. Todo está optimizado para que cada visita se transforme en una consulta o en una vent."
             ],
-            "imgSrc": "../img/proyecto.png",
-            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "imgSrc": "../img/mockup-automotores.jpg",
+            "altText": "diseño web de automotores yrigoyen",
             "btn":"Ver proyecto"
         },
         {
             "id": 3,
-            "title": "Serena",
+            "title": "Estelar viajes",
             "subtitle": "Pagina empresarial",
             "description": [
                 "Ni idea"
             ],
-            "imgSrc": "../img/proyecto.png",
-            "altText": "proyecto concecionerio hipolito yrigoyen",
+            "imgSrc": "../img/mockup-estelar-viajes.jpg",
+            "altText": "desarrollo web de estelar viajes",
+            "btn":"Ver proyecto"
+        },
+        {
+            "id": 4,
+            "title": "Burgerli",
+            "subtitle": "E-commerce",
+            "description": [
+                "Ni idea"
+            ],
+            "imgSrc": "../img/mockup-burgerli.jpg",
+            "altText": "diseño web de burgerli",
             "btn":"Ver proyecto"
         }
     ]

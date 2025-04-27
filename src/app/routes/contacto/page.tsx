@@ -23,7 +23,7 @@ function ContactoPage() {
                     <div>
                         <h3 className="mb-2 md:mb-4">Whatsapp</h3>
                         <div className="networkContainer">
-                            <Whatsapp width={40} height={40} fill="#25D366"/>
+                            <Whatsapp width={40} height={40} fill="#107D70"/>
                             <p>
                                 +54 9 11 6787-7298
                             </p>

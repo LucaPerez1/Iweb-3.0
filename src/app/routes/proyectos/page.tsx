@@ -20,18 +20,20 @@ function ProyectosPage () {
     const proyects: Proyect[] = t('proyects', { returnObjects: true }) as Proyect[];
     
     return (
-        <>
-            <h1 className="mx-4 md:mx-10 my-6 md:my-10 seccionTitle">{t('mainTitle')}</h1>
-            <p className="generalDescriptions mx-4 md:mx-10">{t('mainText')}</p>
+        <main>
+            <section>
+                <h1 className="mx-4 md:mx-10 my-6 md:my-10 seccionTitle">{t('mainTitle')}</h1>
+                <p className="generalDescriptions mx-4 md:mx-10">{t('mainText')}</p>
 
-            <div>
-                {proyects.map((proyect)=> (
-                    <CardProyects key={proyect.id} {...proyect}/>
-                ))}
-            </div>
-            
-            <CardContacto />
-        </>
+                <div>
+                    {proyects.map((proyect)=> (
+                        <CardProyects key={proyect.id} {...proyect}/>
+                    ))}
+                </div>
+                
+                <CardContacto />
+            </section>
+        </main>
     )
 }
 

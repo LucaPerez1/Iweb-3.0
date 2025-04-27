@@ -25,7 +25,7 @@ const NavBar = () => {
     const {t} = useTranslation ('componentes')
 
     return (
-        <header className="header z-50 fixed w-full">
+        <header className="header z-50 sticky top-0 w-full">
             <div className=" px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="flex flex-1 items-center justify-between sm:items-stretch">

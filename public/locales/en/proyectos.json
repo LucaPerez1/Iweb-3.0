@@ -6,25 +6,51 @@
     "proyects": [
         {
             "id": 1,
-            "title": "Project Name",
-            "subtitle": "e-Commerce",
+            "title": "CM Constructions",
+            "subtitle": "Landing page",
             "description": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam beatae, necessitatibus obcaecati quibusdam commodi, provident deleniti adipisci inventore, voluptate velit sequi consectetur maiores. Amet eum, velit doloremque aliquam dolores consequuntur doloribus optio officia, inventore animi placeat, excepturi numquam ipsum ad ratione sequi dolore. Officiis deleniti sequi eum nobis dicta aliquid veritatis quibusdam dignissimos quos quis! Repudiandae porro adipisci ut labore possimus, tempore dicta quisquam iusto libero consequuntur odit iste mollitia, est delectus perspiciatis! Eaque architecto voluptates assumenda saepe natus?"
+                "We designed and developed the landing page for CM Constructions, a company with over 25 years in the dry construction industry. Our goal was to effectively communicate the core values that set them apart from the competition: speed, efficiency, and quality, using a clean and modern approach.",
+        
+                "The landing page highlights their main services (partition walls, ceilings, cladding, acoustic treatments), the construction systems they use (steel framing, drywall, insulating panels), and the benefits that dry construction offers to clients: reduced construction time, less waste generation, and cost optimization, without compromising safety or comfort."
             ],
-            "imgSrc": "../img/proyecto.png",
-            "altText": "Hipólito Yrigoyen dealership project",
-            "btn":"View project"
+            "imgSrc": "../img/mockup-cm-construcciones.jpg",
+            "altText": "web design for CM Constructions",
+            "btn": "View project"
         },
         {
             "id": 2,
-            "title": "Project Name",
-            "subtitle": "e-Commerce",
+            "title": "Automotores Yrigoyen",
+            "subtitle": "Business website",
             "description": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam beatae, necessitatibus obcaecati quibusdam commodi, provident deleniti adipisci inventore, voluptate velit sequi consectetur maiores. Amet eum, velit doloremque aliquam dolores consequuntur doloribus optio officia, inventore animi placeat, excepturi numquam ipsum ad ratione sequi dolore. Officiis deleniti sequi eum nobis dicta aliquid veritatis quibusdam dignissimos quos quis! Repudiandae porro adipisci ut labore possimus, tempore dicta quisquam iusto libero consequuntur odit iste mollitia, est delectus perspiciatis! Eaque architecto voluptates assumenda saepe natus?"
+                "We created a modern and dynamic website for Automotores Yrigoyen, designed to connect the dealership directly with potential customers. With an attractive and functional design, we developed an experience focused on trust, clarity, and conversion. Available cars are displayed with smart filters, detailed technical sheets, and high-quality photos, making the search and decision-making process easier. We also implemented a system that allows users to submit their vehicle details and receive an appraisal without leaving their home.",
+        
+                "The website also features institutional sections, contact forms, WhatsApp integration, and links to social media, creating a direct and efficient communication channel. Everything is optimized to turn each visit into an inquiry or a sale."
             ],
-            "imgSrc": "../img/proyecto.png",
-            "altText": "Hipólito Yrigoyen dealership project",
-            "btn":"View project"
+            "imgSrc": "../img/mockup-automotores.jpg",
+            "altText": "web design for Automotores Yrigoyen",
+            "btn": "View project"
+        },
+        {
+            "id": 3,
+            "title": "Estelar Viajes",
+            "subtitle": "Business website",
+            "description": [
+                "No idea yet."
+            ],
+            "imgSrc": "../img/mockup-estelar-viajes.jpg",
+            "altText": "web development for Estelar Viajes",
+            "btn": "View project"
+        },
+        {
+            "id": 4,
+            "title": "Burgerli",
+            "subtitle": "E-commerce",
+            "description": [
+                "No idea yet."
+            ],
+            "imgSrc": "../img/mockup-burgerli.jpg",
+            "altText": "web design for Burgerli",
+            "btn": "View project"
         }
     ]
 

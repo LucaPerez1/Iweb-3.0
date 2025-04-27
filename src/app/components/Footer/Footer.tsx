@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="grid md:grid-cols-3 gap-8">
                 <div className='flex flex-col'>
                     <Link href={'/'}>
-                        <img src="../logo.svg" alt="iweb logo" className='w-auto'/>
+                        <img src="../logo.svg" alt="iweb logo" className='w-auto animate-pulse'/>
                     </Link>
                     <p>{t('descriptionFooter')}</p>
                 </div>
