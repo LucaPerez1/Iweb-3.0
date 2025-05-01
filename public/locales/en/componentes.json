@@ -1,4 +1,6 @@
 {
+    "menuHamburguesaAria":"navigation menu",
+
     "linkHome": "Home",
 
     "linkUs": "About Us",
@@ -9,9 +11,15 @@
 
     "linkContact": "Contact",
 
-    "descriptionFooter": "We are an IT company focused on driving the growth of our clients through technology and creativity, ensuring high-quality results.",
+    "descriptionFooter": "More than just an IT company, we are your growth partner, combining technology, creativity, and strategy to design solutions that truly make a difference.",
     
     "followUs": "Follow us on our social media",
 
-    "rightsReserved": "All rights reserved"
+    "rightsReserved": "All rights reserved",
+
+    "footerAriaIg":"go to iWeb intragram profile",
+
+    "footerAriaTiktok":"go to iWeb tiktok profile",
+
+    "footerAriaLinkedin":"go to iWeb linkedin profile"
 }  

@@ -1,5 +1,5 @@
 .footer {
-    background-color: #222222;
+    background-color: #121212;
 }
 
 .footer a {
@@ -20,7 +20,7 @@
     font-weight: 400;
 }
 
-.footer h4 {
+.footer h2 {
     font-family: var(--font-roboto);
     font-size: 1.3rem;
     text-align: center;

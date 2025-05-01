@@ -4,13 +4,19 @@ interface InstagramIconProps {
     width?: number;
     height?: number;
     fill?: string;
+    className?: string;
 }
 
-const Instagram: React.FC<InstagramIconProps> = ({ width, height,  fill = "url(#paint0_linear_113_578)"}) => {
+const Instagram: React.FC<InstagramIconProps> = ({ width, height,className,  fill = "url(#paint0_linear_113_578)"}) => {
     const isGradient = fill === "url(#paint0_linear_113_578)";
     
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 48 48" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        width={width} 
+        height={height} 
+        viewBox="0 0 48 48" 
+        fill="none"
+        className={className}>
             <defs>
                 <linearGradient id="paint0_linear_113_578" x1="7.60466" y1="44" x2="49.4969" y2="28.326" gradientUnits="userSpaceOnUse">
                     <stop stopColor="#FFDC7D" />

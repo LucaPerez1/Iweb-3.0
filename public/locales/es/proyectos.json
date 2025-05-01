@@ -6,6 +6,40 @@
     "proyects": [
         {
             "id": 1,
+            "title": "Automotores Yrigoyen",
+            "subtitle": "Pagina empresarial",
+            "description": [
+                "Creamos una pagina web moderna y agil para Automotores Yrigoyen pensada para conectar directamente a la concesionaria con su potenciales clientes. Con un diseño atractivo y funcional, desarrollamos una experiencia centrada en la confianza, la claridad y la conversión. Los autos disponibles se presentan con filtros inteligentes, fichas técnicas detalladas y fotos de alta calidad, lo que facilita la búsqueda y la toma de decisiones. Además, incorporamos un sistema para que los usuarios puedan enviar los datos de su vehículo y recibir una tasación sin moverse de su casa.",
+
+                "La web también incluye secciones institucionales, formularios de contacto, integración con WhatsApp y enlaces a redes sociales, generando un canal de comunicación directo y eficaz. Todo está optimizado para que cada visita se transforme en una consulta o en una venta."
+            ],
+            "imgSrc": "../img/mockup-automotores.jpg",
+            "altText": "diseño web de automotores yrigoyen",
+            "url":"https://automotoresyrigoyen.com/",
+            "btn":{
+                "viewProject": "Ver proyecto",
+                "inDevelopment": "En desarrollo"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Estelar viajes",
+            "subtitle": "Pagina empresarial",
+            "description": [
+                "Rediseñamos el sitio de Estelar Viajes con un enfoque 100 % centrado en el usuario para que cada cliente encuentre su paquete ideal en segundos. Simplificamos la navegación agrupando claramente los destinos y ofertas, lo que permite seleccionar viajes según presupuesto, fecha y preferencias. Además, organizamos toda la documentación esencial (requisitos de viaje, política de cancelación, términos y privacidad, viajes con menores) en secciones accesibles, de modo que nada quede oculto y la planificación sea mucho más ágil.",
+
+                "Incluimos un formulario de contacto rápido y módulos de comunicación directa (redes sociales y WhatsApp) para que nuestro cliente pueda resolver las dudas de los usuarios al instante. Buscamos generar una experiencia intuitiva y fluida que refuerce la conexión entre Estelar Viajes y sus viajeros, generando confianza y fidelidad a largo plazo."
+            ],
+            "imgSrc": "../img/mockup-estelar-viajes.jpg",
+            "altText": "desarrollo web de estelar viajes",
+            "url":"https://estelar-viajes-website.vercel.app/",
+            "btn":{
+                "viewProject": "Ver proyecto",
+                "inDevelopment": "En desarrollo"
+            }
+        },
+        {
+            "id": 3,
             "title": "CM Contrucciones",
             "subtitle": "Landing page",
             "description": [
@@ -15,42 +49,28 @@
             ],
             "imgSrc": "../img/mockup-cm-construcciones.jpg",
             "altText": "diseño web de cm construcciones",
-            "btn":"Ver proyecto"
-        },
-        {
-            "id": 2,
-            "title": "Automotores Yrigoyen",
-            "subtitle": "Pagina empresarial",
-            "description": [
-                "Creamos una pagina web moderna y agil para Automotores Yrigoyen pensada para conectar directamente a la concesionaria con su potenciales clientes. Con un diseño atractivo y funcional, desarrollamos una experiencia centrada en la confianza, la claridad y la conversión. Los autos disponibles se presentan con filtros inteligentes, fichas técnicas detalladas y fotos de alta calidad, lo que facilita la búsqueda y la toma de decisiones. Además, incorporamos un sistema para que los usuarios puedan enviar los datos de su vehículo y recibir una tasación sin moverse de su casa.",
+            "url":"",
+            "btn":{
+                "viewProject": "Ver proyecto",
+                "inDevelopment": "En desarrollo"
+            }
 
-                "La web también incluye secciones institucionales, formularios de contacto, integración con WhatsApp y enlaces a redes sociales, generando un canal de comunicación directo y eficaz. Todo está optimizado para que cada visita se transforme en una consulta o en una vent."
-            ],
-            "imgSrc": "../img/mockup-automotores.jpg",
-            "altText": "diseño web de automotores yrigoyen",
-            "btn":"Ver proyecto"
-        },
-        {
-            "id": 3,
-            "title": "Estelar viajes",
-            "subtitle": "Pagina empresarial",
-            "description": [
-                "Ni idea"
-            ],
-            "imgSrc": "../img/mockup-estelar-viajes.jpg",
-            "altText": "desarrollo web de estelar viajes",
-            "btn":"Ver proyecto"
         },
         {
             "id": 4,
             "title": "Burgerli",
             "subtitle": "E-commerce",
             "description": [
-                "Ni idea"
+                "Estamos construyendo una tienda online para Burgerli con el objetivo de que pedir tus hamburguesas favoritas sea tan fácil como deslizar el dedo. Los usuarios podrán explorar todo el menú, descubrir ofertas, realizar pedidos en pocos pasos con una pasarela de pago segura y sencilla. También podrán crear una cuenta para guardar sus favoritas, ver el historial de sus compras, usar cupones exclusivos y realizar el seguimiento de sus pedidos. Además, cuentan con un chat de soporte para resolver dudas al instante.",
+                "Del lado del cliente, desarrollamos un panel de gestión completo que permite cargar productos, agruparlos en promociones, visualizar pedidos recibidos y acceder a métricas de ventas con gráficos dinámicos. Todo esto puede filtrarse por sucursal y por periodo, lo que facilita la toma de decisiones estratégicas en tiempo real. Un sistema pensado para crecer junto con el negocio. "
             ],
             "imgSrc": "../img/mockup-burgerli.jpg",
             "altText": "diseño web de burgerli",
-            "btn":"Ver proyecto"
+            "url":"",
+            "btn":{
+                "viewProject": "Ver proyecto",
+                "inDevelopment": "En desarrollo"
+            }
         }
     ]
 }

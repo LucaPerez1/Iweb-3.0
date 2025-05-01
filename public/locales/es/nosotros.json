@@ -3,7 +3,7 @@
 
     "firstTextAboutUs": "Somos una startup enfocada en el mundo IT que ofrece soluciones integrales para negocios y emprendedores que buscan destacar en el mundo digital. Nuestros servicios abarcan desde el desarrollo web y diseño UX/UI, hasta e-commerce, desarrollo de software, SEO y diseño gráfico. Buscamos crecer junto a nuestros clientes, impulsando su éxito y acompañándolos en cada paso.",
 
-    "secondTextAboutUs": "Contamos con un equipo de profesionales que trabajan combinando tecnologías de vanguardia con un enfoque creativo para garantizar resultados de alta calidad que sobresalgan y generen valor esperado.",
+    "secondTextAboutUs": "No hacemos solo diseño o desarrollo: creamos soluciones pensadas para cumplir objetivos concretos y generar resultados tangibles para tu negocio.",
 
     "altImageAboutUs":"desarrollo en equipo",
 
@@ -13,19 +13,19 @@
 
     "valuesTitle":"Valores",
 
-    "valuesText": "Creatividad, compromiso, innovación constante, excelencia, responsabilidad adaptabilidad, flexibilidad y satisfacción del cliente son nuestros valores fundamentales. Propulsados por estos principios éticos, brindamos soluciones de alta calidad que impulsen el crecimiento de nuestros clientes.",
+    "valuesText": "Creatividad, compromiso, innovación constante, excelencia, adaptabilidad, flexibilidad y satisfacción del cliente son nuestros valores fundamentales. Creemos en hacer las cosas bien, por eso brindamos soluciones que ayudan a nuestros clientes a crecer de forma sostenible.",
 
     "visionTitle": "Visión",
 
-    "visionText": "Buscamos convertirnos en una empresa reconocida dentro del mundo IT, destacándonos por crear soluciones innovadoras y personalizas para cada uno de nuestros clientes. Aspiramos a ser la primera elección de aquellas empresas que buscan mejorar dentro del mundo IT, impulsando la transformación digital a través de un enfoque en la excelencia técnica, la creatividad y un servicio al cliente sobresaliente.",
+    "visionText": "Buscamos convertirnos en una empresa reconocida dentro del mundo IT, destacándonos por crear soluciones innovadoras, personalizas y eficientes para cada uno de nuestros clientes. Aspiramos a ser la primera elección de aquellas empresas que buscan mejorar dentro del mundo IT, impulsando la transformación digital a través de un enfoque en la excelencia técnica, la creatividad y un  gran servicio al cliente",
 
-    "processSectionTitle": "Nuestro proceso",
+    "processSectionTitle": "¿Como trabajamos?",
 
     "titleAnalysis": "Análisis",
 
     "firstTextAnalysis": "En esta primera etapa, nos enfocamos en comprender en profundidad las necesidades y objetivos del cliente a través de entrevistas y sesiones de descubrimiento, identificando requerimientos clave y analizando su entorno competitivo. Este proceso nos permite conocer sus expectativas, detectar oportunidades y definir funcionalidades esenciales del proyecto, asegurando que el producto final esté alineado con sus metas comerciales.",
 
-    "secondTextAnlaysis": "Nuestro trabajo de análisis también involucra un análisis detallado del panorama competitivo, permitiéndonos destacar y acentuar los diferenciales del negocio para ayudarlo a sobresalir en su mercado.",
+    "secondTextAnalysis": "Nuestro trabajo de análisis también involucra un análisis detallado del panorama competitivo, permitiéndonos destacar y acentuar los diferenciales del negocio para ayudarlo a sobresalir en su mercado.",
 
     "titlePlanning": "Planificación",
 
@@ -37,17 +37,17 @@
 
     "textSolution": "En esta última etapa, implementamos el desarrollo del proyecto bajo altos estándares de calidad y prácticas ágiles, enfocándonos en crear un producto final eficiente, escalable y alineado con los requisitos definidos. Nuestro equipo realiza pruebas rigurosas para asegurar el funcionamiento y la optimización del producto, garantizando una implementación sin contratiempos. Además soporte para que el cliente pueda aprovechar al máximo la solución entregada.",
 
-    "carrouselServiceDevelopment": "DESARROLLO WEB", 
+    "carrouselServiceDevelopment": "Desarrollo web", 
 
-    "carrouselServiceDesign":"DISEÑO UX/UI",
+    "carrouselServiceDesign":"Diseño UX/UI",
 
-    "carrouselServiceSoftware":"DESARROLLO DE SOFTWARE", 
+    "carrouselServiceSoftware":"Desarrollo de software", 
 
-    "carrouselServiceBusinessPage":"PAGINA EMPRESARIAL",
+    "carrouselServiceBusinessPage":"Pagina empresarial",
 
-    "workFlowSectionTitle": "NUESTRO MÉTODO",
+    "workFlowSectionTitle": "Nuestro proceso",
 
-    "workFlowSectionText": "Ya sea que necesites desarrollar un manual marca, crear un branding sólido, diseñar una página web o mejorar el posicionamiento de tu negocio, nuestro método de trabajos se basa en los siguientes pasos clave.",
+    "workFlowSectionText": "Ya sea que necesites desarrollar un manual de marca, crear una identidad sólida, diseñar una web, mejorar tu SEO o desarrollar un software a medida, nuestro proceso de trabajo se basa en pasos clave para garantizar resultados efectivos",
 
     "workFlowImageAlt": "metodo de trabajo",
     
@@ -67,9 +67,9 @@
 
     "stepFinal": "Entrega final",
 
-    "cardNosotrosFirstTitle": "Busquemos el éxito juntos",
+    "cardNosotrosFirstTitle": "Desarrollemos el futuro juntos",
 
-    "cardNosotrosSecondTitle": "TU VISION + NUESTRO INGENIO",
+    "cardNosotrosSecondTitle": "Tu vision + nuestro ingenio",
 
     "cardNosotrosBtn": "Contáctanos"
 }

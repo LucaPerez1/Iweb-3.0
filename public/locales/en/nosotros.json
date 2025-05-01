@@ -3,7 +3,7 @@
 
 	"firstTextAboutUs": "We are a startup focused on the IT world, offering comprehensive solutions for businesses and entrepreneurs looking to stand out in the digital space. Our services range from web development and UX/UI design to e-commerce, software development, SEO, and graphic design. We strive to grow alongside our clients, driving their success and supporting them every step of the way.",
 
-	"secondTextAboutUs": "We have a team of professionals who combine cutting-edge technologies with a creative approach to deliver high-quality results that stand out and generate the expected value.",
+	"secondTextAboutUs": "We don't just design or develop, we create solutions built to achieve clear goals and deliver tangible results for your business.",
 
 	"altImageAboutUs": "Team development",
 
@@ -13,13 +13,13 @@
 
 	"valuesTitle": "Values",
 
-	"valuesText": "Creativity, commitment, constant innovation, excellence, responsibility, adaptability, flexibility, and customer satisfaction are our core values. Guided by these ethical principles, we deliver high-quality solutions that drive our clients' growth.",
+	"valuesText": "Creativity, commitment, constant innovation, excellence, adaptability, flexibility, and customer satisfaction are our core values. We believe in doing things the right way, which is why we provide solutions that help our clients grow sustainably.",
 
 	"visionTitle": "Vision",
 
-	"visionText": "We aim to become a recognized company in the IT world, standing out for creating innovative and personalized solutions for each of our clients. We aspire to be the first choice for companies looking to improve in the IT world, driving digital transformation through a focus on technical excellence, creativity, and outstanding customer service.",
+	"visionText": "We aim to become a recognized company in the IT world, standing out by creating innovative, customized, and efficient solutions for each of our clients. We aspire to be the first choice for companies looking to improve within the IT world, driving digital transformation through a focus on technical excellence, creativity, and exceptional customer service.",
 
-	"processSectionTitle": "Our process",
+	"processSectionTitle": "How do we work?",
 
 	"titleAnalysis": "Analysis",
 
@@ -37,17 +37,17 @@
 
 	"textSolution": "In this final stage, we implement the project development under high-quality standards and agile practices, focusing on creating an efficient, scalable product aligned with the defined requirements. Our team conducts rigorous testing to ensure the product's functionality and optimization, ensuring a smooth implementation. Additionally, we provide support to help the client make the most of the delivered solution.",
 
-	"carrouselServiceDevelopment": "WEB DEVELOPMENT", 
+	"carrouselServiceDevelopment": "Web development", 
 	
-    "carrouselServiceDesign":"UX/UI DESIGN", 
+    "carrouselServiceDesign":"UX/UI Design", 
 	
-    "carrouselServiceSoftware":"SOFTWARE DEVELOPMENT",
+    "carrouselServiceSoftware":"Software development",
 
-	"carrouselServiceBusinessPage":"BUSINESS PAGE",
+	"carrouselServiceBusinessPage":"Business page",
 
-	"workFlowSectionTitle": "OUR METHOD",
+	"workFlowSectionTitle": "Our process",
 
-	"workFlowSectionText": "Whether you need to develop a brand manual, create solid branding, design a website, or improve your business's positioning, our working method is based on the following key steps.",
+	"workFlowSectionText": "Whether you need to develop a brand manual, create a solid identity, design a website, improve your SEO, or develop custom software, our working process is based on key steps to ensure effective results.",
 
 	"workFlowImageAlt": "working method",
 
@@ -67,9 +67,9 @@
 
 	"stepFinal": "Final delivery",
 
-	"cardNosotrosFirstTitle": "Let's achieve success together",
+	"cardNosotrosFirstTitle": "Let's develop the future together",
 
-	"cardNosotrosSecondTitle": "YOUR VISION + OUR INGENUITY",
+	"cardNosotrosSecondTitle": "Your vision + our ingenuty",
 
 	"cardNosotrosBtn": "Contact us"
 }

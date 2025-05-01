@@ -1,36 +1,22 @@
-'use client';
-import React from "react";
-import CardContacto from "../../components/CardContacto/CardConacto";
-import CardService from "../../components/CardService/CardService";
-import { useTranslation } from 'react-i18next';
+import type { Metadata } from 'next'
+import ClientServicios from '../../pages/servicios/ClientServicios'
 
-interface Service {
-    id: number;
-    title: string;
-    subtitle: string;
-    description: string[];
-    imgSrc: string;
-    altText: string;
+export const metadata: Metadata = {
+    title: 'Servicios de Diseño Web, Sistemas a medida, ecommerce y SEO',
+    description: 'Diseño web, desarrollo de software, tiendas online, landings, diseño grafico y SEO. Soluciones digitales que se adaptadan e impulsan tu negocio.',
+    keywords: [
+        'diseño web', 
+        'ecommerce', 
+        'sistemas de gestión', 
+        'SaaS', 
+        'desarrollo de software', 
+        'SEO', 
+        'diseño gráfico', 
+        'soluciones IT',]
 }
 
 function ServiciosPage() {
-    const { t } = useTranslation('servicios');
-    const services: Service[] = t('services', { returnObjects: true }) as Service[];
-
-    return (
-        <main>
-            <h1 className="my-8 md:my-12 seccionTitle">{t('mainTitle')}</h1>
-
-            <div>
-                {services.map((service) => (
-                    <CardService key={service.id} {...service} />
-                ))}
-            </div>
-
-            <CardContacto />
-        </main>
-
-)
+    return<ClientServicios />
 }
 
 export default ServiciosPage

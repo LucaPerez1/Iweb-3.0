@@ -7,8 +7,8 @@
         "title": "Web Development",
         "subtitle": "01",
         "description": [
-            "If there’s one thing COVID and the pandemic taught us, it’s that businesses without a website today don’t have a solid presence on the Internet. That’s why we specialize in designing and developing custom websites that captivate your audience and enhance user experience.",
-            "We offer customized web development services for businesses looking for an attractive and functional digital presence, including corporate websites, online stores, blogs, social networks, forums, and more."
+            "In an increasingly digital world, having an online presence is no longer optional it’s essential. That’s why at iWeb we specialize in custom website design and development that captivates your audience and delivers an outstanding user experience.",
+            "We create tailored digital solutions for businesses looking to stand out online from corporate websites and online stores to blogs, forums, social networks, and more. If you're looking for a functional, attractive, and brand-aligned website, we’re exactly what you need."
         ],
         "imgSrc": "../img/servicio-desarrollo-web.png",
         "altText": "web development service",
@@ -20,7 +20,7 @@
         "subtitle": "02",
         "description": [
             "We design user-centered interfaces that not only optimize usability but also increase customer satisfaction and loyalty. We offer customized UX/UI design services for companies looking to enhance the user experience and interface of their digital products, adapting to users' needs and behaviors.",
-            "Our team creates intuitive and visually appealing designs that improve usability, engagement, and interaction, ultimately driving better results for your business. By focusing on the complete user experience, we help ensure that your digital product not only meets expectations but exceeds them."
+            "Our team creates intuitive and visually appealing designs that enhance usability, engagement, and interaction driving better results for your business. By focusing on the full user experience, we aim to ensure your digital product not only meets your expectations but exceeds them."
         ],
         "imgSrc": "../img/servicio-diseño-uxui.png",
         "altText": "UX/UI design service",
@@ -31,8 +31,9 @@
         "title": "Software Development",
         "subtitle": "03",
         "description": [
-            "Our software development service is designed to create tailor-made solutions that drive efficiency and business growth. From web and mobile applications to complex management systems, we transform ideas into technological products adapted to each company's specific needs. Our team combines advanced technical expertise with creativity to develop scalable and secure applications.",
-            "We address each stage of the process, from requirements analysis to implementation and maintenance, ensuring a comprehensive approach that guarantees quality and alignment with business objectives. With our service, companies optimize their operations, enhance user experience, and gain a competitive edge in the digital market."
+            "Many businesses waste time and money trying to fit their processes into off-the-shelf solutions that don’t truly meet their needs. At iWeb, we understand that frustration — that’s why we offer custom software development tailored to your business. From web and mobile applications to complex management systems, we turn your ideas into powerful, scalable, and secure digital products that adapt to you, not the other way around.",
+
+            "We handle the entire process, from initial analysis to implementation and ongoing maintenance, ensuring every solution is aligned with your goals. Our team blends deep technical knowledge with creative thinking to help you streamline operations, enhance user experience, and gain a real competitive edge in the digital landscape."
         ],
         "imgSrc": "../img/servicio-desarrollo-software.png",
         "altText": "software development service",
@@ -52,10 +53,11 @@
     },
     {
         "id": 5,
-        "title": "SEO/SEM",
+        "title": "SEO",
         "subtitle": "05",
         "description": [
-            "We optimize your visibility in search engines so your business can be easily found online. Our team offers organic positioning services designed specifically for companies looking to stand out in search results. We handle both website and content optimization, using effective strategies that include keyword optimization and the creation of relevant content that attracts quality traffic."
+            "We amplify your search engine presence so your brand stands out naturally and sustainably. Our team specializes in organic positioning, crafting personalized strategies that boost your website’s ranking in search results.",
+            "We take care of every technical and content aspect: SEO audits, keyword research, and content structuring tailored to your audience. This way, you attract authentic, sustained traffic and turn visits into business opportunities."
         ],
         "imgSrc": "../img/servicio-posicionamiento-organico.png",
         "altText": "organic positioning service",
@@ -66,23 +68,12 @@
         "title": "e-Commerce",
         "subtitle": "06",
         "description": [
-            "We build e-Commerce platforms that boost your sales and attract new buyers. Our team specializes in developing personalized, effective, and secure online stores to sell products or services. We create intuitive and optimized online stores with designs that reflect your brand identity.",
-            "We evaluate and analyze each client’s goals to implement the most suitable and personalized strategy. Sell online easily and securely, expanding your clientele and taking your business to the next level."
+            "Our e-commerce platforms are designed to let you sell smoothly and without obstacles. We craft bespoke online stores that reflect your brand’s personality, offer an intuitive shopping experience, and guarantee security at every step of the process.",
+            "We start with a thorough analysis of your goals and audience to define the most effective strategy: payment gateway integration, inventory management, streamlined navigation, and promotion automation. This way, you not only attract new customers but also turn visits into real sales and ensure steady business growth."
         ],
         "imgSrc": "../img/servicio-ecommerce.png",
         "altText": "eCommerce development service",
         "reverse": true
-    },
-    {
-        "id": 7,
-        "title": "Digital Advertising",
-        "subtitle": "07",
-        "description": [
-            "We create effective advertising campaigns on Facebook, Instagram, and Google that increase your business’s visibility and reach. Our digital advertising services are designed for companies looking to maximize their online presence. Our team develops optimized campaigns, focusing on digital advertising strategies, social media ads, and Google Ads campaigns to maximize return on investment."
-        ],
-        "imgSrc": "../img/servicio-posicionamiento-organico.png",
-        "altText": "digital advertising service",
-        "reverse": false
     }
 ]
 }

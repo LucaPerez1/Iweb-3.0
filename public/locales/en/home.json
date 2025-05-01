@@ -41,7 +41,7 @@
     
     "stageSolutionText": "In the final phase, we carry out the project implementation following high-quality standards and agile practices, ensuring that the product is efficient, scalable, and meets all the established requirements. We conduct thorough testing to guarantee optimal performance and provide customer support, allowing them to make the most of the delivered solution.",
 
-    "carouselSectionTitle":"Discover what we have been working on",
+    "carouselSectionTitle":"Our most notable work",
 
     "btnCarousel": "See more",
 
@@ -51,9 +51,9 @@
 
     "formSubTitle": "You can also contact us through our social media.",
 
-    "phraseText": "Let's keep moving forward together",
+    "phraseText": "Let's develop",
 
-    "phraseSpan": "Towards success.",
+    "phraseSpan": "the future you envision",
 
     "formInputName": "Your name or your company name",
 
@@ -63,5 +63,51 @@
 
     "formInputMessage": "Message / Challenge",
 
-    "btnForm": "Send"
+    "btnForm": "Send",
+
+    "formSuccessMessage":"Received! We will be in touch soon to help with your project.",
+
+    "formErrorMessage": "Oops! Something went wrong. Please try again.",
+
+    "packagesSimpleTitle": "Landing Package",
+
+    "packagesSimpleDescription": "Perfect for professionals taking their first steps online and seeking a professional, attractive web presence.",
+
+    "packagesStandardTitle": "Business Package",
+
+    "packagesStandardDescription": "Designed for SMEs aiming to maximize online sales and provide customers with a seamless shopping experience.",
+
+    "packagesPremiumTitle": "Enterprise Package",
+
+    "packagesPremiumDescription": "Ideal for ambitious companies and projects requiring comprehensive, highly scalable digital solutions.",
+
+    "packagesItemLanding": "Landing page design and development (1 section)",
+
+    "packagesItemBasicDesign": "Basic UX/UI design (wireframes)",
+
+    "packagesItemSeo": "SEO (Search Engine Optimization)",
+
+    "packagesItemResponsive": "Responsive: optimized for mobile and tablet",
+
+    "packagesItemMail": "Contact forms with email notifications",
+
+    "packagesItemHost": "Hosting",
+
+    "packagesItemMaintenance": "Maintenance",
+
+    "packagesItemDevelop": "Website design and development up to 5 sections",
+
+    "packagesDesignAvanced": "Advanced UX/UI design (wireframes + clickable prototype)",
+
+    "packagesItemEcommerce": "Dynamic online store with unlimited products",
+
+    "packagesItemDevelopSoftware": "Custom software development (APIs, ERPs, CRM)",
+
+    "packagesItemRegister": "User registration and management (login, roles, profiles)",
+
+    "packagesItemCart": "Shopping cart",
+
+    "packagesItemPayment": "Payment gateway",
+    
+    "packagesItemDataBase": "Database"
 }

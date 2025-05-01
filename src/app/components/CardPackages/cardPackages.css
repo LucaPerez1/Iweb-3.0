@@ -1,0 +1,16 @@
+.titlePackages {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.descriptionPackages{
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+}
+
+.itemsPackages {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 1rem;
+}

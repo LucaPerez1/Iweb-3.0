@@ -41,7 +41,7 @@
 
     "stageSolutionText": "En la fase final, llevamos a cabo la implementación del proyecto siguiendo altos estándares de calidad y prácticas ágiles, asegurando que el producto sea eficiente, escalable y cumpla con todos los requisitos establecidos. Realizamos pruebas exhaustivas para garantizar su óptimo desempeño y ofrecemos soporte al cliente, permitiendo así que aproveche al máximo la solución entregada.",
 
-    "carouselSectionTitle":"Descubre en qué hemos estado trabajando",
+    "carouselSectionTitle":"Nuestros trabajos mas destacados",
 
     "btnCarousel": "Ver mas",
 
@@ -51,9 +51,9 @@
 
     "formSubTitle": "También podes contactarnos a través de nuestras redes",
 
-    "phraseText": "Sigamos avanzando juntos",
+    "phraseText": "Desarrollemos juntos",
 
-    "phraseSpan": "hacia el éxito.",
+    "phraseSpan": "el futuro que imagines",
 
     "formInputName": "Tu nombre o el de tu empresa",
 
@@ -63,5 +63,51 @@
 
     "formInputMessage": "Mensaje / Desafío",
 
-    "btnForm": "Enviar"
+    "btnForm": "Enviar",
+
+    "formSuccessMessage":"¡Recibido! Pronto no pondremos en contacto para ayudarte con tu proyecto.",
+
+    "formErrorMessage":"¡Ups! Algo salió mal. Por favor, intentá de nuevo.",
+
+    "packagesSimpleTitle":"Paquete Landing",
+
+    "packagesSimpleDescription": "Perfecto para profesionales que dan sus primeros pasos online y buscan una presencia y atractiva en Internet.",
+
+    "packagesStandardTitle":"Paquete Negocios",
+
+    "packagesStandardDescription": "Diseñado para pymes que buscan maximizar sus ventas online y ofrecer a sus clientes una experiencia de compra fluida.",
+
+    "packagesPremiumTitle":"Paquete Enterprise",
+
+    "packagesPremiumDescription": "Ideal para empresas y proyectos ambiciosos que requieren soluciones digitales integrales y altamente escalables.",
+
+    "packagesItemLanding":"Diseño y Desarrollo de una landing page (1 seccion)",
+
+    "packagesItemBasicDesign":"Diseño UX/UI basico (Wireframes)",
+
+    "packagesItemSeo":"SEO (Posicionamiento en motores de busqueda)",
+
+    "packagesItemResponsive":"Responsive: adaptado a móviles y tablets",
+
+    "packagesItemMail":"Formularios de contacto con notificación por email",
+
+    "packagesItemHost":"Hosteo",
+
+    "packagesItemMaintenance":"Mantenimiento",
+
+    "packagesItemDevelop":"Diseño y desarrollo de un sitio web de hasta 5 secciones",
+
+    "packagesDesignAvanced": "Diseño UX/UI Avanzado (wireframes + prototipo clickable)",
+
+    "packagesItemEcommerce":"Tienda online dinámica sin límite de productos",
+
+    "packagesItemDevelopSoftware":"Desarrollo de software a medida (APIs, ERPs, CRM)",
+
+    "packagesItemRegister":"Registro y gestión de usuario (login, roles, perfiles)",
+
+    "packagesItemCart":"Carrito de compras",
+
+    "packagesItemPayment":"Pasarela de pagos",
+
+    "packagesItemDataBase":"Base de datos"
 }

@@ -1,4 +1,6 @@
 {
+    "menuHamburguesaAria":"menu de navegacion",
+    
     "linkHome": "Inicio",
     
     "linkUs": "Nosotros",
@@ -9,9 +11,15 @@
 
     "linkContact": "Contacto", 
 
-    "descriptionFooter": "Somos una empresa de IT, enfocada en impulsar el crecimiento de nuestros clientes mediante tecnología y creatividad, asegurando resultados de alta calidad",
+    "descriptionFooter": "Más que una empresa de IT, somos aliados en tu crecimiento: usamos tecnología, creativdad y estrategia para diseñar soluciones que realmente generen diferencia.",
 
     "followUs": "Seguinos en nuestras redes",
 
-    "rightsReserved": "Todos los derechos reservados"
+    "rightsReserved": "Todos los derechos reservados",
+
+    "footerAriaIg":"ir a perfil de intragram de iWeb",
+
+    "footerAriaTiktok":"ir a perfil de tiktok de iWeb",
+
+    "footerAriaLinkedin":"ir a perfil de linkedin de iWeb"
 }

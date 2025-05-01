@@ -11,8 +11,8 @@ export default function CarrouselServicios() {
         t('carrouselServiceDevelopment') + " - ",
         t('carrouselServiceDesign') + " - ",
         t('carrouselServiceSoftware') + " - ",
-        "ECOMMERCE - ",
-        "LANDING PAGE - ",
+        "Ecommerce - ",
+        "Landing page - ",
         t('carrouselServiceBusinessPage') + " - ",
         "SEO - ",
     ];
@@ -23,7 +23,7 @@ export default function CarrouselServicios() {
         <section>
             <div className="lineServices animate-pulse"></div>
                 <div className="carruselContainer overflow-hidden whitespace-nowrap">
-                    <div className="carrusel animate-marquee flex gap-8">
+                    <div className="carrusel animate-marquee md:animate-marquee-md min-w-max flex gap-8">
                         {repeated.map((service, idx) => (
                             <span
                                 key={idx}

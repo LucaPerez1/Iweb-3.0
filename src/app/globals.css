@@ -27,6 +27,7 @@ body {
 	text-align: center;
 	color: #f3f3f3;
 	font-size: 2.2rem;
+	text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
 }
 
 .generalDescriptions {
@@ -48,12 +49,14 @@ body {
 .textVideo {
 	font-family: var(--font-roboto);
 	font-weight: 400;
+	font-size: 1.2rem;
 	text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.9);
 }
 
 .btnVideo {
 	font-family: var(--font-roboto);
 	font-weight: 600;
+	border-radius: 10px;
 }
 
 /*section service start*/
@@ -69,7 +72,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #f3f3f3;
-	gap: 40px;
+	gap: 16px;
 	border-radius: 15px;
 	padding: 20px;
 }
@@ -78,7 +81,7 @@ body {
 	justify-content: start;
 	align-items: center;
 	background-color: #275269;
-	gap: 40px;
+	gap: 16px;
 	border-radius: 15px;
 	padding: 20px;
 }
@@ -87,7 +90,7 @@ body {
 	justify-content: start;
 	align-items: center;
 	background-color: #08E6F5;
-	gap: 40px;
+	gap: 16px;
 	border-radius: 15px;
 	padding: 20px;
 }
@@ -110,7 +113,7 @@ body {
 
 .cardServiceHomeDescription p {
 	font-family: var(--font-roboto);
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -157,7 +160,6 @@ body {
 .procesDescriptionContainer {
     width: 100%;
     justify-content: center;
-	min-height: 350px;
     align-items: center;
 }
 
@@ -177,37 +179,15 @@ body {
 }
 /*section proces end*/
 
-/*section proyects start*/
-.btnContainerHome {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
-.btnHome button {
-	font-family: var(--font-roboto);
-	width: 100%;
-	background: #08E6F5;
-	padding: 12px;
-	border-radius: 10px;
-	color: black;
-	font-weight: 600;
-	font-size: 1.1rem;
-	line-height: normal;
-}
-
-/*seccion proyects end*/
-
 /*section form start*/
 .formHelp {
-	background-color: #222222;
+	background-color: #121212;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.formHelp h3 {
+.formHelp h2 {
 	color: #f3f3f3;
 	font-family: var(--font-lemonada);
 	font-size: 1.8rem;
@@ -227,7 +207,7 @@ body {
 	margin-bottom: 70px;
 }
 
-.formHelp h4 {
+.formHelp h3 {
 	color: #f3f3f3;
 	font-family: var(--font-roboto);
 	font-size: 1.2rem;
@@ -251,8 +231,7 @@ body {
 	gap: 20px;
 }
 
-.social h3 {
-	color: #f3f3f3;
+.social h4 {
 	text-align: center;
 	font-family: var(--font-roboto);
 	font-size: 1.4rem;
@@ -261,21 +240,13 @@ body {
 	line-height: normal;
 }
 
-.whatsapp {
-	background-color: #107D70;
-}
-
-.facebook {
-	background-color: #3B5998;
-}
-
 .instagram {
 	background: linear-gradient(69deg, #FFDC7D 6.56%, #F46F30 23.93%, #C32AA3 45.66%, #7232BD 67.38%, #4C5FD7 93.44%);
 }
 
 .phraseContainer {
 	width: 100%;
-	background-color: #222222;
+	background-color: #121212;
 	color: #f3f3f3;
 	text-align: center;
 	font-family: var(--font-lemonada);
@@ -283,11 +254,6 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	padding: 15px 0px;
-}
-
-.phraseContainer span {
-	color: #08E6F5;
 }
 
 /*section form end*/

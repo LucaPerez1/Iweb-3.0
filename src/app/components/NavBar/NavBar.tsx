@@ -59,10 +59,10 @@ const NavBar = () => {
 
                                     <div className={`flex flex-col absolute mt-[10px] ${flages ? 'hidden' : 'notHidden'}`}>
                                         <button className="grayscale hover:grayscale-0 rounded-full" onClick={() => changeLanguage('es')}>
-                                            <img className="languageButton" src="../languages/spanish.png" alt="icono español" />
+                                            <img className="languageButton" src="../languages/spanish.png" alt="icono de idioma español" />
                                         </button>
                                         <button className="grayscale hover:grayscale-0 rounded-full" onClick={() => changeLanguage('en')}>
-                                            <img className="languageButton" src="../languages/english.png" alt="icono ingles" />
+                                            <img className="languageButton" src="../languages/english.png" alt="icono de idioma ingles" />
                                         </button>
                                     </div>
                                 </div>
@@ -77,6 +77,7 @@ const NavBar = () => {
                             className="relative inline-flex items-center justify-center rounded-md p-2 hover:bg-gray-700 hover:text-white"
                             aria-controls="mobile-menu"
                             aria-expanded={menuOpen}
+                            aria-label={t('menuHamburguesaAria')}
                         >
 
                             <svg
@@ -108,20 +109,20 @@ const NavBar = () => {
 
             <div className={`${menuOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
                 <div className="space-y-1 px-2 pb-3 pt-2">
-                    <Link href="/" className="menuMovilLink px-3 py-2">
-                    {t('linkHome')}
+                    <Link href="/" className="menuMovilLink px-3 py-2" onClick={toggleMenu}>
+                        {t('linkHome')}
                     </Link>
-                    <Link href="/nosotros" className="menuMovilLink px-3 py-2">
-                    {t('linkUs')}
+                    <Link href="/nosotros" className="menuMovilLink px-3 py-2" onClick={toggleMenu}>
+                        {t('linkUs')}
                     </Link>
-                    <Link href="/servicios" className="menuMovilLink px-3 py-2">
-                    {t('linkServices')}
+                    <Link href="/servicios" className="menuMovilLink px-3 py-2" onClick={toggleMenu}>
+                        {t('linkServices')}
                     </Link>
-                    <Link href="/proyectos" className="menuMovilLink px-3 py-2">
-                    {t('linkProyects')}
+                    <Link href="/proyectos" className="menuMovilLink px-3 py-2" onClick={toggleMenu}>
+                        {t('linkProyects')}
                     </Link>
-                    <Link href="/contacto" className="menuMovilLink px-3 py-2">
-                    {t('linkContact')}
+                    <Link href="/contacto" className="menuMovilLink px-3 py-2" onClick={toggleMenu}>
+                        {t('linkContact')}
                     </Link>
                     <div>
                         <button className="rounded-full" onClick={() => changeLanguage('es')}>

@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
 		defaultLocale: 'es',
 	},*/
 
+	productionBrowserSourceMaps:true,
+
 	async rewrites() {
 		return [
 		{ source: '/contacto', destination: '/routes/contacto' },

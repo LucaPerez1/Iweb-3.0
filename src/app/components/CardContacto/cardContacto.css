@@ -16,8 +16,6 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    padding-top: 40px;
-    padding-bottom: 40px;
     background: rgba(25, 25, 25, 0.85);
 }
 
@@ -32,7 +30,7 @@
     margin-bottom: 10px;
 }
 
-.titleCardContainer h3 {
+.titleCardContainer h2 {
     font-family: var(--font-lemonada);
     color: #f3f3f3;
     text-align: center;
@@ -55,13 +53,15 @@
 .btn button{
     font-family: var(--font-roboto);
     width: 100%;
-    background: #08E6F5;
-    padding: 12px;
     border-radius: 10px;
-    color: black;
     font-weight: 600;
     font-size: 1.1rem;
     line-height: normal;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.9)
+}
+
+.btn button:hover {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9);
 }
 
 @media (max-width: 768px) {

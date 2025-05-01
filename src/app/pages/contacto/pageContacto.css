@@ -5,6 +5,14 @@
     gap: 12px;
 }
 
+.boxShadowContac {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.boxShadowContac:hover {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9);
+}
+
 .networkContainer p {
     font-family: var(--font-roboto);
     font-weight: 400;
