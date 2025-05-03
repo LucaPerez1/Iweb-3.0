@@ -14,7 +14,7 @@
         
                 "The website also features institutional sections, contact forms, WhatsApp integration, and links to social media, creating a direct and efficient communication channel. Everything is optimized to turn each visit into an inquiry or a sale."
             ],
-            "imgSrc": "../img/mockup-automotores.jpg",
+            "imgSrc": "/img/mockup-automotores.webp",
             "altText": "web design for Automotores Yrigoyen",
             "url":"https://automotoresyrigoyen.com/",
             "btn":{
@@ -31,7 +31,7 @@
 
                 "We included a quick contact form and direct-communication modules (social media and WhatsApp) so our client can resolve users’ questions instantly. Our goal was to create an intuitive, seamless experience that strengthens the connection between Estelar Viajes and its travelers, building trust and long-term loyalty."
             ],
-            "imgSrc": "../img/mockup-estelar-viajes.jpg",
+            "imgSrc": "/img/mockup-estelar-viajes.webp",
             "altText": "web development for Estelar Viajes",
             "url":"https://estelar-viajes-website.vercel.app/",
             "btn":{
@@ -48,7 +48,7 @@
         
                 "The landing page highlights their main services (partition walls, ceilings, cladding, acoustic treatments), the construction systems they use (steel framing, drywall, insulating panels), and the benefits that dry construction offers to clients: reduced construction time, less waste generation, and cost optimization, without compromising safety or comfort."
             ],
-            "imgSrc": "../img/mockup-cm-construcciones.jpg",
+            "imgSrc": "/img/mockup-cm-construcciones.webp",
             "altText": "web design for CM Constructions",
             "url":"",
             "btn":{
@@ -64,7 +64,7 @@
                 "We are building an online store for Burgerli so ordering your favorite burgers is as easy as a swipe. Users will be able to browse the full menu, discover special offers, place orders in just a few steps with a secure, user-friendly checkout, and create an account to save favorites, view order history, redeem exclusive coupons, and track their deliveries in real time. A support chat is also available to answer any questions instantly.",
                 "On the client side, we have developed a comprehensive management panel that lets administrators add products, bundle promotions, view incoming orders, and access sales metrics with dynamic charts. Everything can be filtered by location and time period, making strategic decision-making fast and data-driven. A system designed to grow alongside the business. "
             ],
-            "imgSrc": "../img/mockup-burgerli.jpg",
+            "imgSrc": "/img/mockup-burgerli.webp",
             "altText": "web design for Burgerli",
             "url":"",
             "btn":{

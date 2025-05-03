@@ -12,6 +12,7 @@ import Arrow from "../../components/Icons/Arrow";
 import Tiktok from "../../components/Icons/Tiktok";
 import Linkedin from "../../components/Icons/Linkedin";
 import CardPackages from "../../components/CardPackages/CardPackages";
+import VideoHome from "../../components/VideoHome.tsx/VideoHome";
 
 export default function ClientHome() {
 	const { t } = useTranslation('home');
@@ -19,12 +20,8 @@ export default function ClientHome() {
 	return (
 
 		<main>
-			<section className="relative w-full h-[60vh] md:h-auto overflow-hidden">
-				<div className="inset-0 w-full h-full">
-					<video
-						autoPlay muted loop playsInline className="w-full h-full object-cover" src="/img/home-movie.mp4"
-					></video>
-				</div>
+			<section className="relative w-full h-[70vh] md:h-auto overflow-hidden">
+				<VideoHome />
 
 				<div className="absolute inset-0 flex flex-col justify-center px-6 md:px-16 text-white">
 					<div className="w-full lg:w-[50%] text-center md:text-left items-center md:items-start flex flex-col gap-6">
@@ -103,7 +100,7 @@ export default function ClientHome() {
 				<div className="itemCardProcess flex flex-col md:flex-row-reverse items-stretch descriptionWhite">
 
 					<div className="procesImgContainer imgRight w-[100%] md:w-[45%]">
-						<img src="/img/contacto-image.jpg" alt={t('stagePlanningAltImage')} />
+						<img src="/img/contacto-image.webp" alt={t('stagePlanningAltImage')} />
 					</div>
 
 					<div className="procesDescriptionContainer pb-8 md:py-6 px-5 md:pl-10 md:pr-0 flex flex-col md:flex-row-reverse">

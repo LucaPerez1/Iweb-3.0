@@ -13,7 +13,7 @@
 
                 "La web también incluye secciones institucionales, formularios de contacto, integración con WhatsApp y enlaces a redes sociales, generando un canal de comunicación directo y eficaz. Todo está optimizado para que cada visita se transforme en una consulta o en una venta."
             ],
-            "imgSrc": "../img/mockup-automotores.jpg",
+            "imgSrc": "/img/mockup-automotores.webp",
             "altText": "diseño web de automotores yrigoyen",
             "url":"https://automotoresyrigoyen.com/",
             "btn":{
@@ -30,7 +30,7 @@
 
                 "Incluimos un formulario de contacto rápido y módulos de comunicación directa (redes sociales y WhatsApp) para que nuestro cliente pueda resolver las dudas de los usuarios al instante. Buscamos generar una experiencia intuitiva y fluida que refuerce la conexión entre Estelar Viajes y sus viajeros, generando confianza y fidelidad a largo plazo."
             ],
-            "imgSrc": "../img/mockup-estelar-viajes.jpg",
+            "imgSrc": "/img/mockup-estelar-viajes.webp",
             "altText": "desarrollo web de estelar viajes",
             "url":"https://estelar-viajes-website.vercel.app/",
             "btn":{
@@ -47,7 +47,7 @@
 
                 "En ella destacamos los principales servicios ofrecidos (Tabiqueria, Cieolorraso, revestimientos, Tratamientosacusticos),  los sistemas constructivos utilizados (steel framing, drywall, paneles aislantes) y los beneficios que brinda la construccion en seco a los clientes: reducción de tiempos de obra, menor generación de residuos y optimización de costos, sin sacrificar seguridad ni confort."
             ],
-            "imgSrc": "../img/mockup-cm-construcciones.jpg",
+            "imgSrc": "/img/mockup-cm-construcciones.webp",
             "altText": "diseño web de cm construcciones",
             "url":"",
             "btn":{
@@ -64,7 +64,7 @@
                 "Estamos construyendo una tienda online para Burgerli con el objetivo de que pedir tus hamburguesas favoritas sea tan fácil como deslizar el dedo. Los usuarios podrán explorar todo el menú, descubrir ofertas, realizar pedidos en pocos pasos con una pasarela de pago segura y sencilla. También podrán crear una cuenta para guardar sus favoritas, ver el historial de sus compras, usar cupones exclusivos y realizar el seguimiento de sus pedidos. Además, cuentan con un chat de soporte para resolver dudas al instante.",
                 "Del lado del cliente, desarrollamos un panel de gestión completo que permite cargar productos, agruparlos en promociones, visualizar pedidos recibidos y acceder a métricas de ventas con gráficos dinámicos. Todo esto puede filtrarse por sucursal y por periodo, lo que facilita la toma de decisiones estratégicas en tiempo real. Un sistema pensado para crecer junto con el negocio. "
             ],
-            "imgSrc": "../img/mockup-burgerli.jpg",
+            "imgSrc": "/img/mockup-burgerli.webp",
             "altText": "diseño web de burgerli",
             "url":"",
             "btn":{

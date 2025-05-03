@@ -10,8 +10,8 @@ export async function POST (req: Request) {
 
     try {
         const result = await resend.emails.send ({
-            from: 'Acme <onboarding@resend.dev>',
-            to: 'lucaperez2012@gmail.com',
+            from: 'iWeb <onboarding@resend.dev>',
+            to: 'iweb.contacto@gmail.com',
             subject: 'Nueva consulta de la pagina',
             react: EmailTemplate({ name, email, phone, message }) as React.ReactElement,
         })
