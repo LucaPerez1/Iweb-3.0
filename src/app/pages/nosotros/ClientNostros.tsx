@@ -34,7 +34,7 @@ export default function ClientNosotros() {
                         </div>
                     </div>
                     <div className="imgContainer flex absolute z-[2] w-[90%] max-h-[320px] bottom-[-18%] left-[50%] transform translate-x-[-50%] md:w-[40%] md:max-h-[95%] md:top-[56px] md:right-[40px] md:transform-none md:left-auto md:bottom-auto">
-                        <img src="/img/nosotros-image.jpg" alt={t('altImageAboutUs')} />
+                        <img src="/img/nosotros-image.webp" alt={t('altImageAboutUs')} />
                     </div>
                 </section>
                 {/*SECTION ABOUT US END*/}
@@ -116,7 +116,7 @@ export default function ClientNosotros() {
                         </div>
 
                         <div className="workFlowImgContainer row-span-2 col-span-1">
-                            <img src="/img/metodo-image.jpg" alt={t('workFlowImageAlt')} className=" w-[97%] md:w-[100%]" />
+                            <img src="/img/metodo-image.webp" alt={t('workFlowImageAlt')} className=" w-[97%] md:w-[100%]" />
                         </div>
 
                         <div className="stepContainer flex row-span-1 col-span-1 pt-12 text-[12px] md:text-[16px]">

@@ -84,7 +84,7 @@ export default function ClientHome() {
 				<div className="itemCardProcess flex flex-col md:flex-row items-stretch descriptionBlack">
 
 					<div className="procesImgContainer imgLeft w-[100%] md:w-[45%]">
-						<img src="/img/analisis-image.jpg" alt={t('stageAnalysisAltImage')} />
+						<img src="/img/analisis-image.webp" alt={t('stageAnalysisAltImage')} />
 					</div>
 
 					<div className="procesDescriptionContainer pb-8 md:py-6 px-5 md:pr-10 md:pl-0 flex flex-col md:flex-row">
@@ -116,7 +116,7 @@ export default function ClientHome() {
 				<div className="itemCardProcess flex flex-col md:flex-row items-stretch descriptionBlue">
 
 					<div className="procesImgContainer imgLeft w-[100%] md:w-[45%]">
-						<img src="/img/solucion-image.jpg" alt={t('stageSolutionAltImage')} />
+						<img src="/img/solucion-image.webp" alt={t('stageSolutionAltImage')} />
 					</div>
 
 					<div className="procesDescriptionContainer pb-8 md:py-6 px-5 md:pr-10 md:pl-0 flex flex-col md:flex-row">
