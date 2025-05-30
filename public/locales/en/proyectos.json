@@ -1,5 +1,5 @@
 {
-    "mainTitle": "Our Projects",
+    "mainTitle": "Our most notable projects",
 
     "mainText": "We are committed to our clients, their passions, their goals, and their purposes. We analyze and ensure that every project we undertake achieves unique results and maintains its essence.",
 
@@ -33,7 +33,7 @@
             ],
             "imgSrc": "https://i.ibb.co/qLxsrmtf/mockup-estelar-viajes.webp",
             "altText": "web development for Estelar Viajes",
-            "url":"https://estelar-viajes-website.vercel.app/",
+            "url":"https://www.estelarviajes.com/",
             "btn":{
                 "viewProject": "View project",
                 "inDevelopment": "In development"

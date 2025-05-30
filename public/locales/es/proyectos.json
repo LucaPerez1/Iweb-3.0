@@ -1,5 +1,5 @@
 {
-    "mainTitle": "Nuestro proyectos",
+    "mainTitle": "Nuestro proyectos mas destacados",
 
     "mainText": "Estamos comprometidos con nuestros clientes, sus pasiones, sus objetivos y sus propósitos. Analizamos y nos aseguramos de que cada proyecto que emprendemos, logre resultados únicos y mantenga su esencia.",
 
@@ -32,7 +32,7 @@
             ],
             "imgSrc": "https://i.ibb.co/qLxsrmtf/mockup-estelar-viajes.webp",
             "altText": "desarrollo web de estelar viajes",
-            "url":"https://estelar-viajes-website.vercel.app/",
+            "url":"https://www.estelarviajes.com/",
             "btn":{
                 "viewProject": "Ver proyecto",
                 "inDevelopment": "En desarrollo"
@@ -45,7 +45,7 @@
             "description": [
                 "Realizamos el diseño y desarrollo de la landing page para CM construcciones que cuenta con mas de  25 años dentro de la industria de contruccion en seco. Buscamos comunicar de forma efectiva los valores que la diferencian de su competencia: rapidez, eficiencia y calidad utilizando un enfoque limpio y modeno.",
 
-                "En ella destacamos los principales servicios ofrecidos (Tabiqueria, Cieolorraso, revestimientos, Tratamientosacusticos),  los sistemas constructivos utilizados (steel framing, drywall, paneles aislantes) y los beneficios que brinda la construccion en seco a los clientes: reducción de tiempos de obra, menor generación de residuos y optimización de costos, sin sacrificar seguridad ni confort."
+                "En ella destacamos los principales servicios ofrecidos (Tabiqueria, Cieolorraso, revestimientos, Tratamientos acusticos),  los sistemas constructivos utilizados (steel framing, drywall, paneles aislantes) y los beneficios que brinda la construccion en seco a los clientes: reducción de tiempos de obra, menor generación de residuos y optimización de costos, sin sacrificar seguridad ni confort."
             ],
             "imgSrc": "https://i.ibb.co/dsJrrvPd/mockup-cm-construcciones.webp",
             "altText": "diseño web de cm construcciones",
